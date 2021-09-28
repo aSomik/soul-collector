@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hsarmory",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -15,7 +15,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/hsarmory/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -24,7 +24,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hsarmory.mixins.json"
   ],
 
   "depends": {
