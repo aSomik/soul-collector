@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import soulcollector.items.SoulCollectorItems;
+import soulcollector.items.tools.SoulCollectorTools;
 
 public class MainClassMod implements ModInitializer {
 
@@ -18,5 +19,6 @@ public class MainClassMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		SoulCollectorItems.register();
+		SoulCollectorTools.register();
 	}
 }
