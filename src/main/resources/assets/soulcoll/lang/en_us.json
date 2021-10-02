@@ -1,6 +1,17 @@
 {
   "itemGroup.soulcoll.items": "Soul Collector: Items",
+  "itemGroup.soulcoll.tools": "Soul Collector: Tools",
 
   "item.soulcoll.steel_ingot": "Steel Ingot",
-  "item.soulcoll.steel_sword": "Steel Sword"
+  "item.soulcoll.ancient_soul": "§bAncient Soul",
+  "item.soulcoll.soul_ingot": "§bSoul Ingot",
+  "item.soulcoll.steel_sword": "Steel Sword",
+  "item.soulcoll.soul_seeker": "§bSoul Seeker",
+  "item.soulcoll.steel_shovel": "Steel Shovel",
+  "item.soulcoll.steel_pickaxe": "Steel Pickaxe",
+  "item.soulcoll.steel_axe": "Steel Axe",
+  "item.soulcoll.steel_hoe": "Steel Hoe",
+
+  "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",
+  "item.soulcoll.ancient_soul.tooltip": "A lost soul from the past."
 }

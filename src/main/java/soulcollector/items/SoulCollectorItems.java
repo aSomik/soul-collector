@@ -5,7 +5,9 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import soulcollector.MainClassMod;
+import soulcollector.items.base.AncientSoul;
 import soulcollector.items.base.BaseItem;
+import soulcollector.items.base.SoulIngot;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -14,6 +16,9 @@ public class SoulCollectorItems {
     private static final Map<Identifier, Item> ITEMS = new LinkedHashMap<>();
 
     public static final Item STEEL_INGOT = add("steel_ingot", new BaseItem(settings()));
+    public static final Item SOUL_INGOT = add("soul_ingot", new SoulIngot(settings()));
+    public static final Item ANCIENT_SOUL = add("ancient_soul", new AncientSoul(settings()));
+
 
     private static <I extends Item> I add(String name, I item) {
         ITEMS.put(new Identifier(MainClassMod.MODID, name), item);

@@ -16,6 +16,10 @@ public class MainClassMod implements ModInitializer {
 			new Identifier(MODID, "items"),
 			() -> new ItemStack(SoulCollectorItems.STEEL_INGOT));
 
+	public static final ItemGroup ITEM_GROUP_TOOLS = FabricItemGroupBuilder.build(
+			new Identifier(MODID, "tools"),
+			() -> new ItemStack(SoulCollectorTools.STEEL_SWORD));
+
 	@Override
 	public void onInitialize() {
 		SoulCollectorItems.register();
