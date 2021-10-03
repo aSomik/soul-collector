@@ -1,8 +1,10 @@
 package soulcollector.items.base;
 
+import net.minecraft.client.gui.screen.world.SelectWorldScreen;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
@@ -11,9 +13,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SoulSeeker extends Item {
-    public SoulSeeker(Settings settings) {
-        super(settings);
+public class SoulSeeker extends SwordItem {
+    public SoulSeeker(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
+        super(toolMaterial, attackDamage, attackSpeed, settings);
     }
 
     @Override
