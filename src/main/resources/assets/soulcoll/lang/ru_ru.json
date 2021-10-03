@@ -1,6 +1,6 @@
 {
   "itemGroup.soulcoll.items": "Собиратель душ: Предметы",
-  "itemGroup.soulcoll.tools": "Собиратель душ: Инструменты",
+  "itemGroup.soulcoll.tools": "Собиратель душ: Экипировка",
 
   "item.soulcoll.steel_ingot": "Стальной слиток",
   "item.soulcoll.ancient_soul": "§bДревняя душа",
@@ -13,5 +13,8 @@
   "item.soulcoll.steel_hoe": "Стальная мотыга",
 
   "item.soulcoll.soul_ingot.tooltip": "Скован из лучших душ.",
-  "item.soulcoll.ancient_soul.tooltip": "Потерявшаяся душа из прошлого."
+  "item.soulcoll.ancient_soul.tooltip": "Потерявшаяся душа из прошлого.",
+  "item.soulcoll.soul_seeker.tooltip": "Меч с разрушительной силой,",
+  "item.soulcoll.soul_seeker.tooltip1":"способной отделять душу жертвы",
+  "item.soulcoll.soul_seeker.tooltip2": "от их физического сосуда."
 }

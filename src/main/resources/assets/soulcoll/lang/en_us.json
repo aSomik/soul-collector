@@ -1,6 +1,6 @@
 {
   "itemGroup.soulcoll.items": "Soul Collector: Items",
-  "itemGroup.soulcoll.tools": "Soul Collector: Tools",
+  "itemGroup.soulcoll.tools": "Soul Collector: Equipment",
 
   "item.soulcoll.steel_ingot": "Steel Ingot",
   "item.soulcoll.ancient_soul": "§bAncient Soul",
@@ -13,5 +13,8 @@
   "item.soulcoll.steel_hoe": "Steel Hoe",
 
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",
-  "item.soulcoll.ancient_soul.tooltip": "A lost soul from the past."
+  "item.soulcoll.ancient_soul.tooltip": "A lost soul from the past.",
+  "item.soulcoll.soul_seeker.tooltip": "A sword of devastating power,",
+  "item.soulcoll.soul_seeker.tooltip1":"capable of separating the victim's",
+  "item.soulcoll.soul_seeker.tooltip2": "soul from their physical vessel."
 }

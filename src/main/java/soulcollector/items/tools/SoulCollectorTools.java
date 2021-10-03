@@ -30,7 +30,7 @@ public class SoulCollectorTools {
     }
 
     private static FabricItemSettings settings(){
-        return new FabricItemSettings().group(MainClassMod.ITEM_GROUP_TOOLS);
+        return new FabricItemSettings().group(MainClassMod.ITEM_GROUP_EQUIPMENT);
     }
 
     public static void register() {
