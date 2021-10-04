@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "soulcoll:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "soulcoll:steel_helmet",
+    "count": 1
+  }
+}

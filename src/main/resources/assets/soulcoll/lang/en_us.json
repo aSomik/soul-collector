@@ -11,6 +11,10 @@
   "item.soulcoll.steel_pickaxe": "Steel Pickaxe",
   "item.soulcoll.steel_axe": "Steel Axe",
   "item.soulcoll.steel_hoe": "Steel Hoe",
+  "item.soulcoll.steel_helmet": "Steel Helmet",
+  "item.soulcoll.steel_chestplate": "Steel Chestplate",
+  "item.soulcoll.steel_leggings": "Steel Leggings",
+  "item.soulcoll.steel_boots": "Steel Boots",
 
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",
   "item.soulcoll.ancient_soul.tooltip": "A lost soul from the past.",

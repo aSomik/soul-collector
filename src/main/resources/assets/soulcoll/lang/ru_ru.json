@@ -11,6 +11,10 @@
   "item.soulcoll.steel_pickaxe": "Стальная кирка",
   "item.soulcoll.steel_axe": "Стальной топор",
   "item.soulcoll.steel_hoe": "Стальная мотыга",
+  "item.soulcoll.steel_helmet": "Стальной шлем",
+  "item.soulcoll.steel_chestplate": "Стальной нагрудник",
+  "item.soulcoll.steel_leggings": "Стальные поножи",
+  "item.soulcoll.steel_boots": "Стальные ботинки",
 
   "item.soulcoll.soul_ingot.tooltip": "Скован из лучших душ.",
   "item.soulcoll.ancient_soul.tooltip": "Потерявшаяся душа из прошлого.",
