@@ -1,6 +1,23 @@
 {
   "itemGroup.soulcoll.items": "Soul Collector: Items",
   "itemGroup.soulcoll.equip": "Soul Collector: Equipment",
+  "itemGroup.soulcoll.souls": "Soul Collector: Souls",
+
+  "item.soulcoll.inactive_singularity": "§7Inactive Singularity",
+  "item.soulcoll.fren_singularity": "§2Friendly Singularity",
+  "item.soulcoll.peaceful_singularity": "§aSingularity of Peace",
+  "item.soulcoll.harmful_singularity": "§cHarmful Singularity",
+  "item.soulcoll.hostile_singularity": "§4Singularity of Hostility",
+
+  "item.soulcoll.chicken_soul": "Chicken Soul",
+  "item.soulcoll.cow_soul": "Cow Soul",
+  "item.soulcoll.sheep_soul":"Sheep Soul",
+  "item.soulcoll.pig_soul": "Pig Soul",
+  "item.soulcoll.squid_soul": "Squid Soul",
+  "item.soulcoll.ocelot_soul": "Ocelot Soul",
+  "item.soulcoll.rabbit_soul":"Rabbit Soul",
+  "item.soulcoll.villager_soul": "Villager Soul",
+
 
   "item.soulcoll.steel_ingot": "Steel Ingot",
   "item.soulcoll.ancient_soul": "§bAncient Soul",
@@ -20,5 +37,6 @@
   "item.soulcoll.ancient_soul.tooltip": "A lost soul from the past.",
   "item.soulcoll.soul_seeker.tooltip": "A sword of devastating power,",
   "item.soulcoll.soul_seeker.tooltip1": "capable of separating the victim's",
-  "item.soulcoll.soul_seeker.tooltip2": "soul from their physical vessel."
+  "item.soulcoll.soul_seeker.tooltip2": "soul from their physical vessel.",
+  "item.soulcoll.singularity.tooltip": "ILOVEVIOLET"
 }

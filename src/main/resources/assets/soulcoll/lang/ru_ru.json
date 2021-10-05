@@ -1,6 +1,22 @@
 {
   "itemGroup.soulcoll.items": "Собиратель душ: Предметы",
   "itemGroup.soulcoll.equip": "Собиратель душ: Экипировка",
+  "itemGroup.soulcoll.souls": "Собиратель душ: Души",
+
+  "item.soulcoll.inactive_singularity": "§7Неактивная сингулярность",
+  "item.soulcoll.fren_singularity": "§2Дружелюбная сингулярность",
+  "item.soulcoll.peaceful_singularity": "§aСингулярность мира",
+  "item.soulcoll.harmful_singularity": "§cВредная сингулярность",
+  "item.soulcoll.hostile_singularity": "§4Сингулярность вражды",
+
+  "item.soulcoll.chicken_soul": "Душа курицы",
+  "item.soulcoll.cow_soul": "Душа коровы",
+  "item.soulcoll.sheep_soul":"Душа овцы",
+  "item.soulcoll.pig_soul": "Душа свиньи",
+  "item.soulcoll.squid_soul": "Душа спрута",
+  "item.soulcoll.ocelot_soul": "Душа оцелота",
+  "item.soulcoll.rabbit_soul":"Душа кролика",
+  "item.soulcoll.villager_soul": "Душа жителя",
 
   "item.soulcoll.steel_ingot": "Стальной слиток",
   "item.soulcoll.ancient_soul": "§bДревняя душа",
@@ -20,5 +36,6 @@
   "item.soulcoll.ancient_soul.tooltip": "Потерявшаяся душа из прошлого.",
   "item.soulcoll.soul_seeker.tooltip": "Меч с разрушительной силой,",
   "item.soulcoll.soul_seeker.tooltip1": "способной отделять душу жертвы",
-  "item.soulcoll.soul_seeker.tooltip2": "от её физического сосуда."
+  "item.soulcoll.soul_seeker.tooltip2": "от её физического сосуда.",
+  "item.soulcoll.singularity.tooltip": "ILOVEVIOLET"
 }
