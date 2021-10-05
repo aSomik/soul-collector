@@ -5,10 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import soulcollector.MainClassMod;
-import soulcollector.items.base.AncientSoul;
-import soulcollector.items.base.BaseItem;
-import soulcollector.items.base.Singularity;
-import soulcollector.items.base.SoulIngot;
+import soulcollector.items.base.*;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -18,6 +15,7 @@ public class SoulCollectorItems {
 
     public static final Item STEEL_INGOT = add("steel_ingot", new BaseItem(settings1()));
     public static final Item SOUL_INGOT = add("soul_ingot", new SoulIngot(settings1()));
+    public static final Item BEBROCK = add("bebrock_ingot", new Bebrock(settings1()));
     public static final Item ANCIENT_SOUL = add("ancient_soul", new AncientSoul(settings1()));
     public static final Item INACTIVE_SINGULARITY = add("inactive_singularity", new Singularity(settings1()));
     public static final Item FRIENDLY_SINGULARITY = add("fren_singularity", new Singularity(settings1()));

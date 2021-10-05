@@ -24,6 +24,7 @@
   "item.soulcoll.soul_ingot": "§bSoul Ingot",
   "item.soulcoll.steel_sword": "Steel Sword",
   "item.soulcoll.soul_seeker": "§bSoul Seeker",
+  "item.soulcoll.dull_knife": "§lDull Knife",
   "item.soulcoll.steel_shovel": "Steel Shovel",
   "item.soulcoll.steel_pickaxe": "Steel Pickaxe",
   "item.soulcoll.steel_axe": "Steel Axe",
@@ -38,5 +39,9 @@
   "item.soulcoll.soul_seeker.tooltip": "A sword of devastating power,",
   "item.soulcoll.soul_seeker.tooltip1": "capable of separating the victim's",
   "item.soulcoll.soul_seeker.tooltip2": "soul from their physical vessel.",
+  "item.soulcoll.dull_knife.tooltip": "§4STAB",
+  "item.soulcoll.dull_knife.tooltip1": "§fEQUIPMENT",
+  "item.soulcoll.dull_knife.tooltip2": "§fSKILLS",
+  "item.soulcoll.dull_knife.tooltip3": "§fOPTIONS",
   "item.soulcoll.singularity.tooltip": "ILOVEVIOLET"
 }

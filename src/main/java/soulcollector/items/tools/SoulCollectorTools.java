@@ -5,7 +5,9 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import soulcollector.MainClassMod;
+import soulcollector.items.base.DullKnife;
 import soulcollector.items.base.SoulSeeker;
+import soulcollector.items.tools.dev.BebrockMaterial;
 import soulcollector.items.tools.soul.SoulMaterial;
 import soulcollector.items.tools.steel.SteelAxe;
 import soulcollector.items.tools.steel.SteelHoe;
@@ -20,6 +22,7 @@ public class SoulCollectorTools {
 
     public static final ToolItem STEEL_SWORD = add("steel_sword", new SwordItem(SteelMaterial.STEEL_MATERIAL, 0, -2.4f, settings()));
     public static final ToolItem SOUL_SWORD = add("soul_seeker", new SoulSeeker(SoulMaterial.SOUL_MATERIAL, 0, -2.4f, settings()));
+    public static final ToolItem DULL_KNIFE = add("dull_knife", new DullKnife(BebrockMaterial.BEBROCK_MATERIAL, 19, -3.9f, settings()));
     public static final ToolItem STEEL_SHOVEL = add("steel_shovel", new ShovelItem(SteelMaterial.STEEL_MATERIAL, -1.5f, -3f, settings()));
     public static final ToolItem STEEL_PICKAXE = add("steel_pickaxe", new SteelPickaxe(SteelMaterial.STEEL_MATERIAL,  -2, -2.8f, settings()));
     public static final ToolItem STEEL_AXE = add ("steel_axe", new SteelAxe(SteelMaterial.STEEL_MATERIAL, 3, -3.1f, settings()));
