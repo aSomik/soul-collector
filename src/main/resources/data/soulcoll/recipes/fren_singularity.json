@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "CIP",
+    " M "
+  ],
+  "key": {
+    "S": {
+      "item": "soulcoll:sheep_soul"
+    },
+    "C": {
+      "item": "soulcoll:chicken_soul"
+    },
+    "I": {
+      "item": "soulcoll:inactive_singularity"
+    },
+    "P": {
+      "item": "soulcoll:pig_soul"
+    },
+    "M": {
+      "item": "soulcoll:cow_soul"
+    }
+  },
+  "result": {
+    "item": "soulcoll:fren_singularity",
+    "count": 1
+  }
+}

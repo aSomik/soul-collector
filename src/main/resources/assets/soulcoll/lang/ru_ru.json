@@ -5,7 +5,7 @@
 
   "item.soulcoll.inactive_singularity": "§7Неактивная сингулярность",
   "item.soulcoll.fren_singularity": "§2Дружелюбная сингулярность",
-  "item.soulcoll.peaceful_singularity": "§aСингулярность мира",
+  "item.soulcoll.peaceful_singularity": "§bСингулярность мира",
   "item.soulcoll.harmful_singularity": "§cВредная сингулярность",
   "item.soulcoll.hostile_singularity": "§4Сингулярность вражды",
 
@@ -21,6 +21,7 @@
   "item.soulcoll.steel_ingot": "Стальной слиток",
   "item.soulcoll.ancient_soul": "§bДревняя душа",
   "item.soulcoll.soul_ingot": "§bСлиток душ",
+  "item.soulcoll.bebrock_ingot": "Слиток бебры",
   "item.soulcoll.steel_sword": "Стальной меч",
   "item.soulcoll.soul_seeker": "§bИскатель душ",
   "item.soulcoll.steel_shovel": "Стальная лопата",
@@ -33,6 +34,8 @@
   "item.soulcoll.steel_boots": "Стальные ботинки",
 
   "item.soulcoll.soul_ingot.tooltip": "Скован из лучших душ.",
+  "item.soulcoll.bebrock_ingot.tooltip": "Сильный запах этого слитка вызывает",
+  "item.soulcoll.bebrock_ingot.tooltip1": "у вас желание нюхнуть его.",
   "item.soulcoll.ancient_soul.tooltip": "Потерявшаяся душа из прошлого.",
   "item.soulcoll.soul_seeker.tooltip": "Меч с разрушительной силой,",
   "item.soulcoll.soul_seeker.tooltip1": "способной отделять душу жертвы",

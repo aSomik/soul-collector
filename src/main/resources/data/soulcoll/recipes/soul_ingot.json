@@ -1,18 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "is"
-  ],
-  "key": {
-    "i": {
-      "item": "soulcoll:steel_ingot"
-    },
-    "s": {
-      "item": "soulcoll:ancient_soul"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "soulcoll:steel_ingot"
+  },
+  "addition": {
+    "item": "soulcoll:ancient_soul"
   },
   "result": {
-    "item": "soulcoll:soul_ingot",
-    "count": 1
+    "item": "soulcoll:soul_ingot"
   }
 }

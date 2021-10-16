@@ -5,7 +5,7 @@
 
   "item.soulcoll.inactive_singularity": "§7Inactive Singularity",
   "item.soulcoll.fren_singularity": "§2Friendly Singularity",
-  "item.soulcoll.peaceful_singularity": "§aSingularity of Peace",
+  "item.soulcoll.peaceful_singularity": "§bSingularity of Peace",
   "item.soulcoll.harmful_singularity": "§cHarmful Singularity",
   "item.soulcoll.hostile_singularity": "§4Singularity of Hostility",
 
@@ -22,6 +22,7 @@
   "item.soulcoll.steel_ingot": "Steel Ingot",
   "item.soulcoll.ancient_soul": "§bAncient Soul",
   "item.soulcoll.soul_ingot": "§bSoul Ingot",
+  "item.soulcoll.bebrock_ingot": "§dBebrock",
   "item.soulcoll.steel_sword": "Steel Sword",
   "item.soulcoll.soul_seeker": "§bSoul Seeker",
   "item.soulcoll.dull_knife": "§lDull Knife",
@@ -35,6 +36,8 @@
   "item.soulcoll.steel_boots": "Steel Boots",
 
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",
+  "item.soulcoll.bebrock_ingot.tooltip": "The strong scent of this ingot",
+  "item.soulcoll.bebrock_ingot.tooltip1": "makes you want to smell it.",
   "item.soulcoll.ancient_soul.tooltip": "A lost soul from the past.",
   "item.soulcoll.soul_seeker.tooltip": "A sword of devastating power,",
   "item.soulcoll.soul_seeker.tooltip1": "capable of separating the victim's",
