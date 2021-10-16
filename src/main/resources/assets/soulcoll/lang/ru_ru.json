@@ -14,6 +14,7 @@
   "item.soulcoll.sheep_soul":"Душа овцы",
   "item.soulcoll.pig_soul": "Душа свиньи",
   "item.soulcoll.squid_soul": "Душа спрута",
+  "item.soulcoll.mooshroom_soul": "Душа муухомора",
   "item.soulcoll.ocelot_soul": "Душа оцелота",
   "item.soulcoll.rabbit_soul":"Душа кролика",
   "item.soulcoll.villager_soul": "Душа жителя",
@@ -32,6 +33,7 @@
   "item.soulcoll.steel_chestplate": "Стальной нагрудник",
   "item.soulcoll.steel_leggings": "Стальные поножи",
   "item.soulcoll.steel_boots": "Стальные ботинки",
+  "item.soulcoll.pig_crown": "§eПодозрительно выглядящая корона",
 
   "item.soulcoll.soul_ingot.tooltip": "Скован из лучших душ.",
   "item.soulcoll.bebrock_ingot.tooltip": "Сильный запах этого слитка вызывает",
@@ -40,5 +42,7 @@
   "item.soulcoll.soul_seeker.tooltip": "Меч с разрушительной силой,",
   "item.soulcoll.soul_seeker.tooltip1": "способной отделять душу жертвы",
   "item.soulcoll.soul_seeker.tooltip2": "от её физического сосуда.",
-  "item.soulcoll.singularity.tooltip": "ILOVEVIOLET"
+  "item.soulcoll.singularity.tooltip": "ILOVEVIOLET",
+  "item.soulcoll.pig_crown.tooltip": "Похоже, она принадлежит кому-то..кровавому.",
+  "item.soulcoll.pig_crown.tooltip1": "Вы не достоины её носить."
 }

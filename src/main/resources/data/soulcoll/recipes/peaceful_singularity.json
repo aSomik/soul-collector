@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "OFV",
+    " R "
+  ],
+  "key": {
+    "M": {
+      "item": "soulcoll:mooshroom_soul"
+    },
+    "O": {
+      "item": "soulcoll:ocelot_soul"
+    },
+    "F": {
+      "item": "soulcoll:fren_singularity"
+    },
+    "V": {
+      "item": "soulcoll:villager_soul"
+    },
+    "R": {
+      "item": "soulcoll:rabbit_soul"
+    }
+  },
+  "result": {
+    "item": "soulcoll:peaceful_singularity",
+    "count": 1
+  }
+}

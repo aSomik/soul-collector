@@ -14,6 +14,7 @@
   "item.soulcoll.sheep_soul":"Sheep Soul",
   "item.soulcoll.pig_soul": "Pig Soul",
   "item.soulcoll.squid_soul": "Squid Soul",
+  "item.soulcoll.mooshroom_soul": "Mooshroom Soul",
   "item.soulcoll.ocelot_soul": "Ocelot Soul",
   "item.soulcoll.rabbit_soul":"Rabbit Soul",
   "item.soulcoll.villager_soul": "Villager Soul",
@@ -34,6 +35,7 @@
   "item.soulcoll.steel_chestplate": "Steel Chestplate",
   "item.soulcoll.steel_leggings": "Steel Leggings",
   "item.soulcoll.steel_boots": "Steel Boots",
+  "item.soulcoll.pig_crown": "§eSuspicious Looking Crown",
 
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",
   "item.soulcoll.bebrock_ingot.tooltip": "The strong scent of this ingot",
@@ -46,5 +48,7 @@
   "item.soulcoll.dull_knife.tooltip1": "§fEQUIPMENT",
   "item.soulcoll.dull_knife.tooltip2": "§fSKILLS",
   "item.soulcoll.dull_knife.tooltip3": "§fOPTIONS",
-  "item.soulcoll.singularity.tooltip": "ILOVEVIOLET"
+  "item.soulcoll.singularity.tooltip": "ILOVEVIOLET",
+  "item.soulcoll.pig_crown.tooltip": "It might belong to someone..bloody.",
+  "item.soulcoll.pig_crown.tooltip1": "You aren't worthy of wearing it."
 }

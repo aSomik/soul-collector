@@ -16,6 +16,7 @@ public class SoulCollectorItems {
     public static final Item STEEL_INGOT = add("steel_ingot", new BaseItem(settings1()));
     public static final Item SOUL_INGOT = add("soul_ingot", new SoulIngot(settings1()));
     public static final Item BEBROCK = add("bebrock_ingot", new Bebrock(settings1()));
+    public static final Item PIG_CROWN = add("pig_crown", new TechnoCrown(settings1()));
     public static final Item ANCIENT_SOUL = add("ancient_soul", new AncientSoul(settings1()));
     public static final Item INACTIVE_SINGULARITY = add("inactive_singularity", new Singularity(settings1()));
     public static final Item FRIENDLY_SINGULARITY = add("fren_singularity", new Singularity(settings1()));
@@ -28,6 +29,7 @@ public class SoulCollectorItems {
     public static final Item SHEEP_SOUL = add("sheep_soul", new BaseItem(settings()));
     public static final Item PIG_SOUL = add("pig_soul", new BaseItem(settings()));
     public static final Item SQUID_SOUL = add("squid_soul", new BaseItem(settings()));
+    public static final Item MOOSHROOM_SOUL = add("mooshroom_soul", new BaseItem(settings()));
     public static final Item VILLAGER_SOUL = add("villager_soul", new BaseItem(settings()));
     public static final Item OCELOT_SOUL = add("ocelot_soul", new BaseItem(settings()));
     public static final Item RABBIT_SOUL = add("rabbit_soul", new BaseItem(settings()));
