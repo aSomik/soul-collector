@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "SIE",
+    " C "
+  ],
+  "key": {
+    "Z": {
+      "item": "soulcoll:zombie_soul"
+    },
+    "S": {
+      "item": "soulcoll:skeleton_soul"
+    },
+    "I": {
+      "item": "soulcoll:inactive_singularity"
+    },
+    "E": {
+      "item": "soulcoll:spider_soul"
+    },
+    "C": {
+      "item": "soulcoll:creeper_soul"
+    }
+  },
+  "result": {
+    "item": "soulcoll:harmful_singularity",
+    "count": 1
+  }
+}

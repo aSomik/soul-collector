@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "GHP",
+    " S "
+  ],
+  "key": {
+    "E": {
+      "item": "soulcoll:enderman_soul"
+    },
+    "G": {
+      "item": "soulcoll:elder_guardian_soul"
+    },
+    "H": {
+      "item": "soulcoll:harmful_singularity"
+    },
+    "P": {
+      "item": "soulcoll:phantom_soul"
+    },
+    "S": {
+      "item": "soulcoll:shulker_soul"
+    }
+  },
+  "result": {
+    "item": "soulcoll:hostile_singularity",
+    "count": 1
+  }
+}

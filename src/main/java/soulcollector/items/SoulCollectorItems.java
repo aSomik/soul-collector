@@ -34,6 +34,15 @@ public class SoulCollectorItems {
     public static final Item OCELOT_SOUL = add("ocelot_soul", new BaseItem(settings()));
     public static final Item RABBIT_SOUL = add("rabbit_soul", new BaseItem(settings()));
 
+    public static final Item ZOMBIE_SOUL = add("zombie_soul", new BaseItem(settings()));
+    public static final Item SKELETON_SOUL = add("skeleton_soul", new BaseItem(settings()));
+    public static final Item SPIDER_SOUL = add("spider_soul", new BaseItem(settings()));
+    public static final Item CREEPER_SOUL = add("awman_soul", new BaseItem(settings()));
+    public static final Item PHANTOM_SOUL = add("phantom_soul", new BaseItem(settings()));
+    public static final Item ENDERMAN_SOUL = add("enderman_soul", new BaseItem(settings()));
+    public static final Item ELDER_GUARDIAN_SOUL = add("elder_guardian_soul", new BaseItem(settings()));
+    public static final Item SHULKER_SOUL = add("shulker_soul", new BaseItem(settings()));
+
     private static <I extends Item> I add(String name, I item) {
         ITEMS.put(new Identifier(MainClassMod.MODID, name), item);
         return item;
