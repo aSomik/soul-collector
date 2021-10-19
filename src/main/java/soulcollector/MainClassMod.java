@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import soulcollector.event.PlayerAdvancementEvent;
 import soulcollector.items.SoulCollectorItems;
 import soulcollector.items.base.armor.SoulCollectorArmor;
 import soulcollector.items.tools.SoulCollectorTools;
@@ -30,5 +31,12 @@ public class MainClassMod implements ModInitializer {
 		SoulCollectorArmor.register();
 		SoulCollectorItems.register();
 		SoulCollectorTools.register();
+
+		PlayerAdvancementEvent.EVENT.register((player, advancement) -> {
+			Identifier advancementId = new Identifier("minecraft:end/kill_dragon");
+			if(advancementId.equals(advancement.getId())){
+				player.giveItemStack(SoulCollectorTools.DRAGON_RAGE.getDefaultStack());
+			}
+		});
 	}
 }
