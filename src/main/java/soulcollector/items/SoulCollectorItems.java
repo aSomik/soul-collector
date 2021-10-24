@@ -30,10 +30,10 @@ public class SoulCollectorItems {
     public static final Item SHEEP_SOUL = add("sheep_soul", new SoulItem(settings(), EntityType.SHEEP));
     public static final Item PIG_SOUL = add("pig_soul", new SoulItem(settings(), EntityType.PIG));
     public static final Item SQUID_SOUL = add("squid_soul", new SoulItem(settings(), EntityType.SQUID));
-    public static final Item MOOSHROOM_SOUL = add("mooshroom_soul", new SoulItem(settings(), EntityType.MOOSHROOM));
-    public static final Item VILLAGER_SOUL = add("villager_soul", new SoulItem(settings(), EntityType.VILLAGER));
-    public static final Item OCELOT_SOUL = add("ocelot_soul", new SoulItem(settings(), EntityType.OCELOT));
     public static final Item RABBIT_SOUL = add("rabbit_soul", new SoulItem(settings(), EntityType.RABBIT));
+    public static final Item OCELOT_SOUL = add("ocelot_soul", new SoulItem(settings(), EntityType.OCELOT));
+    public static final Item VILLAGER_SOUL = add("villager_soul", new SoulItem(settings(), EntityType.VILLAGER));
+    public static final Item MOOSHROOM_SOUL = add("mooshroom_soul", new SoulItem(settings(), EntityType.MOOSHROOM));
 
     public static final Item ZOMBIE_SOUL = add("zombie_soul", new SoulItem(settings(), EntityType.ZOMBIE));
     public static final Item SKELETON_SOUL = add("skeleton_soul", new SoulItem(settings(), EntityType.SKELETON));
@@ -41,8 +41,8 @@ public class SoulCollectorItems {
     public static final Item CREEPER_SOUL = add("awman_soul", new SoulItem(settings(), EntityType.CREEPER));
     public static final Item PHANTOM_SOUL = add("phantom_soul", new SoulItem(settings(), EntityType.PHANTOM));
     public static final Item ENDERMAN_SOUL = add("enderman_soul", new SoulItem(settings(), EntityType.ENDERMAN));
-    public static final Item ELDER_GUARDIAN_SOUL = add("elder_guardian_soul", new SoulItem(settings(), EntityType.ELDER_GUARDIAN));
     public static final Item SHULKER_SOUL = add("shulker_soul", new SoulItem(settings(), EntityType.SHULKER));
+    public static final Item ELDER_GUARDIAN_SOUL = add("elder_guardian_soul", new SoulItem(settings(), EntityType.ELDER_GUARDIAN));
     public static final Item WITHER_SOUL = add("wither_soul", new SoulItem(settings(), EntityType.WITHER));
 
     private static <I extends Item> I add(String name, I item) {

@@ -16,11 +16,15 @@ public class SoulCollectorArmor {
     public static final Item STEEL_LEGGINGS = new ArmorItem(STEEL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(MainClassMod.ITEM_GROUP_EQUIPMENT));
     public static final Item STEEL_BOOTS = new ArmorItem(STEEL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(MainClassMod.ITEM_GROUP_EQUIPMENT));
 
+    public static final ArmorMaterial PAPER_ARMOR_MATERIAL = new PaperArmorMaterial();
+    public static final Item PIG_MASK = new ArmorItem(PAPER_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(MainClassMod.ITEM_GROUP_EQUIPMENT));
+
     public static void register() {
         Registry.register(Registry.ITEM, new Identifier(MainClassMod.MODID, "steel_helmet"), STEEL_HELMET);
         Registry.register(Registry.ITEM, new Identifier(MainClassMod.MODID, "steel_chestplate"), STEEL_CHESTPLATE);
         Registry.register(Registry.ITEM, new Identifier(MainClassMod.MODID, "steel_leggings"), STEEL_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier(MainClassMod.MODID, "steel_boots"), STEEL_BOOTS);
+        Registry.register(Registry.ITEM, new Identifier(MainClassMod.MODID, "nyusha_mask"), PIG_MASK);
     }
 
 }
