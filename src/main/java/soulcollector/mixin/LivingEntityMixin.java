@@ -26,8 +26,10 @@ public class LivingEntityMixin {
             if(attacker.getStackInHand(Hand.MAIN_HAND).isOf(SoulCollectorTools.SOUL_BASHER)){
                 SoulCollectorItems.ITEMS.forEach((identifier, item) -> {
                     if(item instanceof SoulItem soulItem){
-                        if(self.getType().equals(soulItem.entityType)){
-                            self.dropStack(soulItem.getDefaultStack());
+                        for(EntityType<?> type : soulItem.entityTypes){
+                            if(self.getType().equals(type)){
+                                self.dropStack(soulItem.getDefaultStack());
+                            }
                         }
                     }
                 });

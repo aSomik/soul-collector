@@ -7,11 +7,13 @@
   "description": "A mod about collecting your enemies souls' to use them for your advantage.",
   "authors": [
     "aSomik - Author",
-    "Librarian Night - Co-Author"
+    "Librarian Night - Code Helper",
+    "PinkGoosik - Code Helper",
+    "aViolet - Spriter"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/aSomik/hypixelskyblockarmory"
+    "sources": "https://github.com/aSomik/soulcollector"
   },
 
   "license": "MIT",
@@ -21,6 +23,9 @@
   "entrypoints": {
     "main": [
       "soulcollector.MainClassMod"
+    ],
+    "client": [
+      "soulcollector.client.SoulCollectorClient"
     ]
   },
   "mixins": [
