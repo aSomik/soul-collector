@@ -24,6 +24,7 @@ public class SoulCollectorTools {
     public static final ToolItem SOUL_BASHER = add("soul_basher", new SoulBasher(SoulMaterial.SOUL_MATERIAL, 2, -3f, settings()));
     public static final ToolItem DRAGON_RAGE = add("dragon_rage", new DragonRage(SoulMaterial.SOUL_MATERIAL, 2, -2.4f, settings()));
     public static final ToolItem TECHNO_BLADE = add("techno_blade", new TechnoBlade(SoulMaterial.SOUL_MATERIAL, -6, -2.4f, settings()));
+    public static final Item METAMORPHOSIS = add("metamorphosis", new Metamorphosis(0, -2.4f, BebrockMaterial.BEBROCK_MATERIAL, settings()));
     public static final ToolItem RESPRITE_HAMMER = add("resprite_hammer", new RespriteHammer(BebrockMaterial.BEBROCK_MATERIAL, 989, -3f, settings()));
     public static final ToolItem DULL_KNIFE = add("dull_knife", new DullKnife(BebrockMaterial.BEBROCK_MATERIAL, 19, -3.9f, settings()));
     public static final ToolItem STEEL_SHOVEL = add("steel_shovel", new ShovelItem(SteelMaterial.STEEL_MATERIAL, -1.5f, -3f, settings()));
