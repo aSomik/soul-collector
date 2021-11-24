@@ -3,7 +3,7 @@
   "pattern": [
     " M ",
     "OFV",
-    " R "
+    " A "
   ],
   "key": {
     "M": {
@@ -16,10 +16,10 @@
       "item": "soulcoll:fren_singularity"
     },
     "V": {
-      "item": "soulcoll:villager_soul"
+      "item": "soulcoll:bat_soul"
     },
-    "R": {
-      "item": "soulcoll:rabbit_soul"
+    "A": {
+      "item": "soulcoll:axolotl_soul"
     }
   },
   "result": {

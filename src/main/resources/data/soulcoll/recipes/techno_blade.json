@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "#H#",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "soulcoll:pig_soul"
+    },
+    "C": {
+      "item": "soulcoll:pig_crown"
+    },
+    "H": {
+      "item": "soulcoll:hostile_singularity"
+    },
+    "S": {
+      "item": "soulcoll:steel_sword"
+    }
+  },
+  "result": {
+    "item": "soulcoll:techno_blade"
+  }
+}

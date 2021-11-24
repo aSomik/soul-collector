@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PVH",
+    "SGA",
+    " W "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "V": {
+      "item": "minecraft:netherite_shovel"
+    },
+    "H": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "S": {
+      "item": "minecraft:netherite_sword"
+    },
+    "G": {
+      "item": "soulcoll:hostile_singularity"
+    },
+    "A": {
+      "item": "minecraft:netherite_axe"
+    },
+    "W": {
+      "item": "soulcoll:wither_soul"
+    }
+  },
+  "result": {
+    "item": "soulcoll:metamorphosis"
+  }
+}

@@ -1,7 +1,6 @@
 package soulcollector.items.base;
 
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
@@ -11,14 +10,15 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class Singularity extends BaseItem {
-    public Singularity(Settings settings) {
+public class UnstableShard extends BaseItem{
+    public UnstableShard(Settings settings) {
         super(settings);
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(new TranslatableText("item.soulcoll.singularity.tooltip").formatted(Formatting.DARK_GRAY).formatted(Formatting.OBFUSCATED));
+        tooltip.add(new TranslatableText("item.soulcoll.unstable_shard.tooltip").formatted(Formatting.DARK_GRAY));
+        tooltip.add(new TranslatableText("item.soulcoll.unstable_shard.tooltip1").formatted(Formatting.DARK_GRAY));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "#L#",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "soulcoll:pig_soul"
+    },
+    "P": {
+      "item": "minecraft:pink_tulip"
+    },
+    "L": {
+      "item": "minecraft:leather_helmet"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "soulcoll:nyusha_mask"
+  }
+}

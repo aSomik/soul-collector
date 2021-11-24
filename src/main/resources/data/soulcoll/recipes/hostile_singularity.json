@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " E ",
+    " S ",
     "GHP",
-    " S "
+    " L "
   ],
   "key": {
-    "E": {
-      "item": "soulcoll:enderman_soul"
+    "S": {
+      "item": "soulcoll:slime_soul"
     },
     "G": {
       "item": "soulcoll:elder_guardian_soul"
@@ -18,7 +18,7 @@
     "P": {
       "item": "soulcoll:phantom_soul"
     },
-    "S": {
+    "L": {
       "item": "soulcoll:shulker_soul"
     }
   },

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "soulcoll:singularity_shard"
+    }
+  },
+  "result": {
+    "item": "soulcoll:inactive_singularity",
+    "count": 1
+  }
+}

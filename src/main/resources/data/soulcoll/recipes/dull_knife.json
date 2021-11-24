@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O",
+    "#",
+    "S"
+  ],
+  "key": {
+    "O": {
+      "item": "soulcoll:bebrock_ingot"
+    },
+    "#": {
+      "item": "soulcoll:ocelot_soul"
+    },
+    "S": {
+      "item": "soulcoll:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "soulcoll:dull_knife"
+  }
+}

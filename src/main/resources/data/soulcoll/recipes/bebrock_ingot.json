@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "RDU",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "soulcoll:soul_ingot"
+    },
+    "R": {
+      "item": "soulcoll:raw_bebrock"
+    },
+    "D": {
+      "item": "soulcoll:dragon_soul"
+    },
+    "U": {
+      "item": "soulcoll:unstable_shard"
+    },
+    "I": {
+      "item": "soulcoll:inactive_singularity"
+    }
+  },
+  "result": {
+    "item": "soulcoll:bebrock_ingot",
+    "count": 1
+  }
+}

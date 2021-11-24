@@ -17,9 +17,12 @@ public class SoulCollectorItems {
     public static final Item STEEL_INGOT = add("steel_ingot", new BaseItem(settings1()));
     public static final Item ANCIENT_SOUL = add("ancient_soul", new AncientSoul(settings1()));
     public static final Item SOUL_INGOT = add("soul_ingot", new SoulIngot(settings1()));
+    public static final Item RAW_BEBROCK = add("raw_bebrock", new RawBebrock(settings1()));
     public static final Item BEBROCK = add("bebrock_ingot", new Bebrock(settings1()));
     public static final Item PIG_CROWN = add("pig_crown", new TechnoCrown(settings1()));
     public static final Item PIG_MASK = add("nyusha_mask", new MaskItem(settings1()));
+    public static final Item SINGULARITY_SHARD = add("singularity_shard", new Singularity(settings1()));
+    public static final Item UNSTABLE_SHARD = add("unstable_shard", new UnstableShard(settings1()));
     public static final Item INACTIVE_SINGULARITY = add("inactive_singularity", new Singularity(settings1()));
     public static final Item FRIENDLY_SINGULARITY = add("fren_singularity", new Singularity(settings1()));
     public static final Item PEACEFUL_SINGULARITY = add("peaceful_singularity", new Singularity(settings1()));
@@ -65,6 +68,7 @@ public class SoulCollectorItems {
     public static final Item MAGMA_CUBE_SOUL = add("magma_cube_soul", new SoulItem(settings(), EntityType.MAGMA_CUBE));
     public static final Item BLAZE_SOUL = add("blaze_soul", new SoulItem(settings(), EntityType.BLAZE));
     public static final Item GHAST_SOUL = add("ghast_soul", new SoulItem(settings(), EntityType.GHAST));
+
     public static final Item SLIME_SOUL = add("slime_soul", new SoulItem(settings(), EntityType.SLIME));
     public static final Item RAVAGER_SOUL = add("ravager_soul", new SoulItem(settings(), EntityType.RAVAGER));
     public static final Item PHANTOM_SOUL = add("phantom_soul", new SoulItem(settings(), EntityType.PHANTOM));
