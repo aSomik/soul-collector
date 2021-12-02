@@ -58,6 +58,14 @@
   "item.soulcoll.elder_guardian_soul": "§4Elder Guardian Soul",
   "item.soulcoll.wither_soul": "§4Wither Soul",
   "item.soulcoll.dragon_soul": "§4Dragon Soul",
+  "item.soulcoll.player_soul": "§4Player Soul",
+  "item.soulcoll.somik_soul": "§baSomik's Soul",
+  "item.soulcoll.player_soul.tooltip.asomik": "You either took this from creative mode,",
+  "item.soulcoll.player_soul.tooltip1.asomik": "or found me playing my own mod. If it's the",
+  "item.soulcoll.player_soul.tooltip2.asomik": "latter, good job. You might want to keep it.",
+  "item.soulcoll.night_soul": "§0Librarian Night's Soul",
+  "item.soulcoll.goosik_soul": "§4G§6o§eo§as§bi§9k§5's §dSoul",
+  "item.soulcoll.space_soul": "§ Spusik's Soul",
 
   "item.soulcoll.steel_ingot": "Steel Ingot",
   "item.soulcoll.ancient_soul": "§bAncient Soul",
@@ -87,6 +95,7 @@
   "block.soulcoll.bebrock_ore": "§dBebrock Ore",
   "block.soulcoll.bebrblock": "§dBebrblock",
 
+  "item.soulcoll.player_soul.tooltip": "Violence breeds violence.",
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",
   "item.soulcoll.unstable_shard.tooltip": "It's unstable..Because it's purple and black.",
   "item.soulcoll.unstable_shard.tooltip1": "Might be a part of something bigger.",

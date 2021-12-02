@@ -41,9 +41,9 @@ public class SoulCollectorItems {
     public static final Item LLAMA_SOUL = add("llama_soul", new SoulItem(settings(), new EntityType[]{EntityType.LLAMA, EntityType.TRADER_LLAMA}));
     public static final Item SQUID_SOUL = add("squid_soul", new SoulItem(settings(), new EntityType[]{EntityType.SQUID, EntityType.GLOW_SQUID}));
     public static final Item FISH_SOUL = add("fish_soul", new SoulItem(settings(), new EntityType[]{EntityType.COD, EntityType.SALMON, EntityType.PUFFERFISH, EntityType.TROPICAL_FISH}));
+    public static final Item TURTLE_SOUL = add("turtle_soul", new SoulItem(settings(), EntityType.TURTLE));
 
     public static final Item BAT_SOUL = add("bat_soul", new SoulItem(settings(), EntityType.BAT));
-    public static final Item TURTLE_SOUL = add("turtle_soul", new SoulItem(settings(), EntityType.TURTLE));
     public static final Item DOLPHIN_SOUL = add("dolphin_soul", new SoulItem(settings(), EntityType.DOLPHIN));
     public static final Item OCELOT_SOUL = add("ocelot_soul", new SoulItem(settings(), EntityType.OCELOT));
     public static final Item PARROT_SOUL = add("parrot_soul", new SoulItem(settings(), EntityType.PARROT));
@@ -76,6 +76,11 @@ public class SoulCollectorItems {
     public static final Item ELDER_GUARDIAN_SOUL = add("elder_guardian_soul", new SoulItem(settings(), EntityType.ELDER_GUARDIAN));
     public static final Item WITHER_SOUL = add("wither_soul", new SoulItem(settings(), EntityType.WITHER));
     public static final Item DRAGON_SOUL = add("dragon_soul", new SoulItem(settings(), EntityType.ENDER_DRAGON));
+    public static final Item PLAYER_SOUL = add("player_soul", new PlayerSoulItem(settings(), ""));
+    public static final Item SOMIK_SOUL = add("somik_soul", new PlayerSoulItem(settings(), "aSomik"));
+    public static final Item GOOSIK_SOUL = add("goosik_soul", new PlayerSoulItem(settings(), "PinkGoosik"));
+    public static final Item ANDRYUSHKA_SOUL = add("night_soul", new PlayerSoulItem(settings(), "Librarian_Night"));
+    public static final Item SPUSIK_SOUL = add("space_soul", new PlayerSoulItem(settings(), "Spusik"));
 
     private static <I extends Item> I add(String name, I item) {
         ITEMS.put(new Identifier(MainClassMod.MODID, name), item);

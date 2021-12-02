@@ -13,6 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import soulcollector.items.SoulCollectorItems;
 import soulcollector.items.base.DragonRage;
+import soulcollector.items.base.PlayerSoulItem;
 import soulcollector.items.base.SoulItem;
 import soulcollector.items.base.TechnoBlade;
 import soulcollector.items.tools.SoulCollectorTools;
@@ -28,7 +29,14 @@ public class LivingEntityMixin {
                     if(item instanceof SoulItem soulItem){
                         for(EntityType<?> type : soulItem.entityTypes){
                             if(self.getType().equals(type)){
-                                self.dropStack(soulItem.getDefaultStack());
+                                if(self instanceof PlayerEntity player){
+                                    if(item instanceof PlayerSoulItem soul){
+                                        if(player.getName().asString().equals(soul.name)){
+                                            self.dropStack(soul.getDefaultStack());
+                                        }
+                                    }
+                                }
+                                else self.dropStack(soulItem.getDefaultStack());
                             }
                         }
                     }

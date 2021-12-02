@@ -15,6 +15,7 @@ repositories {
 	maven { url "https://jitpack.io/" }
 	maven { url "https://ladysnake.jfrog.io/artifactory/mods" }
 	maven { url "https://maven.terraformersmc.com/" }
+	maven { url "https://maven.pinkgoosik.ru" }
 }
 
 dependencies {
@@ -24,6 +25,8 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "com.github.paulevsGitch:BCLib:${project.bclib_version}"
+	modImplementation "ru.pinkgoosik:cosmetica:0.3.1-fabric"
+	include "ru.pinkgoosik:cosmetica:0.3.1-fabric"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
