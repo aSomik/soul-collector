@@ -2,11 +2,11 @@ package soulcollector;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import soulcollector.blocks.SoulCollectorBlocks;
 import soulcollector.event.PlayerAdvancementEvent;
+import soulcollector.fluid.SoulCollectorFluids;
 import soulcollector.items.SoulCollectorItems;
 import soulcollector.items.base.armor.SoulCollectorArmor;
 import soulcollector.items.tools.SoulCollectorTools;
@@ -35,6 +35,7 @@ public class MainClassMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		SoulCollectorArmor.register();
+		SoulCollectorFluids.register();
 		SoulCollectorItems.register();
 		SoulCollectorTools.register();
 		SoulCollectorBlocks.register();

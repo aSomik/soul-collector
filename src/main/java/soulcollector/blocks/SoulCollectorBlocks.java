@@ -1,16 +1,17 @@
 package soulcollector.blocks;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.FluidBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import ru.bclib.blocks.BaseBlock;
 import soulcollector.MainClassMod;
+import soulcollector.blocks.base.BaseFluidBlock;
 import soulcollector.blocks.base.SoulCollectorBaseBlock;
+import soulcollector.fluid.SoulCollectorFluids;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -23,6 +24,7 @@ public class SoulCollectorBlocks {
     public static final Block SINGULARITY_ORE = add("singularity_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
     public static final Block BEBROCK_ORE = add("bebrock_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
     public static final Block BEBRBLOCK = add("bebrblock", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static Block MELIS = add("melis", new BaseFluidBlock(SoulCollectorFluids.STILL_MELIS, FabricBlockSettings.copyOf(Blocks.LAVA)));
 
     private static Block add(String name, Block block) {
         Item.Settings settings = new Item.Settings();

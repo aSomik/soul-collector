@@ -2,10 +2,13 @@ package soulcollector.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EntityType;
+import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import soulcollector.MainClassMod;
+import soulcollector.fluid.SoulCollectorFluids;
 import soulcollector.items.base.*;
 
 import java.util.LinkedHashMap;
@@ -15,6 +18,7 @@ public class SoulCollectorItems {
     public static final Map<Identifier, Item> ITEMS = new LinkedHashMap<>();
 
     public static final Item STEEL_INGOT = add("steel_ingot", new BaseItem(settings1()));
+    public static final Item MELIS_BUCKET = add("melis_bucket", new BucketItem(SoulCollectorFluids.STILL_MELIS, settings1().recipeRemainder(Items.BUCKET).maxCount(1)));
     public static final Item ANCIENT_SOUL = add("ancient_soul", new AncientSoul(settings1()));
     public static final Item SOUL_INGOT = add("soul_ingot", new SoulIngot(settings1()));
     public static final Item RAW_BEBROCK = add("raw_bebrock", new RawBebrock(settings1()));
@@ -81,6 +85,7 @@ public class SoulCollectorItems {
     public static final Item GOOSIK_SOUL = add("goosik_soul", new PlayerSoulItem(settings(), "PinkGoosik"));
     public static final Item ANDRYUSHKA_SOUL = add("night_soul", new PlayerSoulItem(settings(), "Librarian_Night"));
     public static final Item SPUSIK_SOUL = add("space_soul", new PlayerSoulItem(settings(), "Spusik"));
+    public static final Item VIOLET_SOUL = add("love_soul", new PlayerSoulItem(settings(), "aViolet"));
 
     private static <I extends Item> I add(String name, I item) {
         ITEMS.put(new Identifier(MainClassMod.MODID, name), item);
