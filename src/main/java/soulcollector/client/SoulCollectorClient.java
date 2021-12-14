@@ -35,11 +35,11 @@ public class SoulCollectorClient implements ClientModInitializer {
             }
         });
 
-        setupFluidRendering(SoulCollectorFluids.STILL_MELIS, SoulCollectorFluids.FLOWING_MELIS, new Identifier("minecraft", "water"), 0x4CC248);
+        setupFluidRendering(SoulCollectorFluids.STILL_MELIS, SoulCollectorFluids.FLOWING_MELIS, new Identifier("soulcoll", "melis"));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), SoulCollectorFluids.STILL_MELIS, SoulCollectorFluids.FLOWING_MELIS);
     }
 
-    public static void setupFluidRendering(final Fluid still, final Fluid flowing, final Identifier textureFluidId, final int color) {
+    public static void setupFluidRendering(final Fluid still, final Fluid flowing, final Identifier textureFluidId) {
         final Identifier stillSpriteId = new Identifier(textureFluidId.getNamespace(), "block/" + textureFluidId.getPath() + "_still");
         final Identifier flowingSpriteId = new Identifier(textureFluidId.getNamespace(), "block/" + textureFluidId.getPath() + "_flow");
 
@@ -73,11 +73,6 @@ public class SoulCollectorClient implements ClientModInitializer {
             @Override
             public Sprite[] getFluidSprites(BlockRenderView view, BlockPos pos, FluidState state) {
                 return fluidSprites;
-            }
-
-            @Override
-            public int getFluidColor(BlockRenderView view, BlockPos pos, FluidState state) {
-                return color;
             }
         };
 
