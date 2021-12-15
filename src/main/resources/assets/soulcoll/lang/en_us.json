@@ -68,6 +68,7 @@
   "item.soulcoll.space_soul": "§ Spusik's Soul",
 
   "item.soulcoll.steel_ingot": "Steel Ingot",
+  "item.soulcoll.melis_bucket": "Melis Bucket",
   "item.soulcoll.ancient_soul": "§bAncient Soul",
   "item.soulcoll.soul_ingot": "§bSoul Ingot",
   "item.soulcoll.unstable_shard": "§dUnstable Shard",
@@ -94,6 +95,7 @@
   "block.soulcoll.singularity_ore": "§7Singularity Ore",
   "block.soulcoll.bebrock_ore": "§dBebrock Ore",
   "block.soulcoll.bebrblock": "§dBebrblock",
+  "block.soulcoll.melis": "Melis",
 
   "item.soulcoll.player_soul.tooltip": "Violence breeds violence.",
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",

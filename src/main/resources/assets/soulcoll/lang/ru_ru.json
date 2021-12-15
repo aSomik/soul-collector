@@ -65,6 +65,7 @@
   "item.soulcoll.space_soul": "§ Душа Spusik",
 
   "item.soulcoll.steel_ingot": "Стальной слиток",
+  "item.soulcoll.melis_bucket": "Ведро Мелисы",
   "item.soulcoll.ancient_soul": "§bДревняя душа",
   "item.soulcoll.soul_ingot": "§bСлиток душ",
   "item.soulcoll.unstable_shard": "§dНестабильный осколок",
@@ -89,6 +90,7 @@
   "block.soulcoll.singularity_ore": "§7Руда сингулярности",
   "block.soulcoll.bebrock_ore": "§dРуда бебры",
   "block.soulcoll.bebrblock": "§dБебрблок",
+  "block.soulcoll.melis": "Мелиса",
 
   "item.soulcoll.soul_ingot.tooltip": "Скован из лучших душ.",
   "item.soulcoll.unstable_shard.tooltip": "Он нестабилен..Потому что он фиолетово-чёрный.",
