@@ -6,12 +6,11 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import soulcollector.items.SoulCollectorItems;
-import soulcollector.items.tools.steel.SteelMaterial;
 
-public class SteelArmorMaterial implements ArmorMaterial {
+public class SoulArmorMaterial implements ArmorMaterial {
 
-    private static final int[] BASE_DURABILITY = new int[] {200, 275, 260, 230};
-    private static final int[] PROTECTION_VALUES = new int[] {1, 7, 6, 2};
+    private static final int[] BASE_DURABILITY = new int[] {255, 411, 353, 290};
+    private static final int[] PROTECTION_VALUES = new int[] {2, 7, 6, 3};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
@@ -25,27 +24,27 @@ public class SteelArmorMaterial implements ArmorMaterial {
 
     @Override
     public int getEnchantability() {
-        return 15;
+        return 20;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_GOLD;
+        return SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(SoulCollectorItems.STEEL_INGOT);
+        return Ingredient.ofItems(SoulCollectorItems.SOUL_INGOT);
     }
 
     @Override
     public String getName() {
-        return "steel";
+        return "soul";
     }
 
     @Override
     public float getToughness() {
-        return 1.0f;
+        return 1.5f;
     }
 
     @Override
