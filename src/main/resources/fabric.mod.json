@@ -3,8 +3,8 @@
   "id": "soulcoll",
   "version": "${version}",
 
-  "name": "Soul Collector Mod",
-  "description": "A mod about collecting your enemies souls' to use them for your advantage.",
+  "name": "Soul Collector",
+  "description": "A mod about collecting your enemies souls' to use them to your advantage.",
   "authors": [
     "aSomik - Author",
     "Librarian Night - Code Helper",
