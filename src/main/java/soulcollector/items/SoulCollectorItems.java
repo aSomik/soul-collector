@@ -10,6 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import ru.bclib.items.BaseDrinkItem;
 import soulcollector.MainClassMod;
 import soulcollector.fluid.SoulCollectorFluids;
 import soulcollector.items.base.*;
@@ -21,6 +22,7 @@ public class SoulCollectorItems {
     public static final Map<Identifier, Item> ITEMS = new LinkedHashMap<>();
 
     public static final Item STEEL_INGOT = add("steel_ingot", new BaseItem(settings1()));
+    public static final Item STEEL_NUGGET = add("steel_nugget", new BaseItem(settings1()));
     public static final Item ANCIENT_SOUL = add("ancient_soul", new AncientSoul(settings1()));
     public static final Item SOUL_INGOT = add("soul_ingot", new SoulIngot(settings1()));
     public static final Item RAW_BEBROCK = add("raw_bebrock", new RawBebrock(settings1()));
@@ -33,7 +35,7 @@ public class SoulCollectorItems {
     public static final Item HARMFUL_SINGULARITY = add("harmful_singularity", new Singularity(settings1()));
     public static final Item HOSTILE_SINGULARITY = add("hostile_singularity", new Singularity(settings1()));
     public static final Item MELIS_BUCKET = add("melis_bucket", new BucketItem(SoulCollectorFluids.STILL_MELIS, settings1().recipeRemainder(Items.BUCKET).maxCount(1)));
-    public static final Item MELIS_BOTTLE = add("melis_bottle", new BaseItem(settings1().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 0), 0.01f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 60, 1), 0.1f).build())));
+    public static final Item MELIS_BOTTLE = add("melis_bottle", new BaseDrinkItem(settings1().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 0), 0.01f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 60, 1), 0.1f).build())));
     public static final Item SOUL_MIXTURE = add("soul_mixture", new BaseItem(settings1().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0), 0.2f).statusEffect(new StatusEffectInstance(StatusEffects.WITHER, 60, 0), 0.1f).build())));
     public static final Item SUCCORY = add("succory", new Succory(settings1().food(new FoodComponent.Builder().hunger(20).saturationModifier(1f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 900, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 900, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 6000, 4), 1f).alwaysEdible().build())));
     public static final Item PIG_CROWN = add("pig_crown", new TechnoCrown(settings1()));

@@ -4,10 +4,10 @@
   "package": "soulcollector.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "GlassBottleMixin",
     "LivingEntityMixin"
   ],
   "client": [
-
   ],
   "injectors": {
     "defaultRequire": 1
