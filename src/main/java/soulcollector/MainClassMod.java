@@ -5,7 +5,9 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import soulcollector.blocks.SoulCollectorBlocks;
+import soulcollector.data.SoulCollectorLootTables;
 import soulcollector.event.PlayerAdvancementEvent;
+import soulcollector.event.SoulCollectorEvents;
 import soulcollector.fluid.SoulCollectorFluids;
 import soulcollector.items.SoulCollectorItems;
 import soulcollector.items.base.armor.SoulCollectorArmor;
@@ -39,6 +41,8 @@ public class MainClassMod implements ModInitializer {
 		SoulCollectorItems.register();
 		SoulCollectorTools.register();
 		SoulCollectorBlocks.register();
+		SoulCollectorEvents.register();
+		SoulCollectorLootTables.register();
 		SoulCollectorConfiguredFeatures.register();
 
 		PlayerAdvancementEvent.EVENT.register((player, advancement) -> {

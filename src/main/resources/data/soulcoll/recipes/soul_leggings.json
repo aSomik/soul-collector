@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sss",
+    "s s"
+  ],
+  "key": {
+    "s": {
+      "item": "soulcoll:soul_ingot"
+    }
+  },
+  "result": {
+    "item": "soulcoll:soul_leggings",
+    "count": 1
+  }
+}

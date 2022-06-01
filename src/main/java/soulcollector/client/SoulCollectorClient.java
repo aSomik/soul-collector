@@ -27,6 +27,7 @@ import soulcollector.items.SoulCollectorItems;
 import java.util.function.Function;
 
 public class SoulCollectorClient implements ClientModInitializer {
+
     @Override
     public void onInitializeClient() {
         SoulCollectorItems.ITEMS.forEach((identifier, item) -> {

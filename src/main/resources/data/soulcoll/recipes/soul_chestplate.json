@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s s",
+    "sss",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "soulcoll:soul_ingot"
+    }
+  },
+  "result": {
+    "item": "soulcoll:soul_chestplate",
+    "count": 1
+  }
+}

@@ -3,13 +3,13 @@
   "id": "soulcoll",
   "version": "${version}",
 
-  "name": "Soul Collector Mod",
-  "description": "A mod about collecting your enemies souls' to use them for your advantage.",
+  "name": "Soul Collector",
+  "description": "A mod about collecting your enemies souls' to use them to your advantage.",
   "authors": [
     "aSomik - Author",
     "Librarian Night - Code Helper",
     "PinkGoosik - Code Helper",
-    "aViolet - Spriter"
+    "aViolet - Spriter and a Qt"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -36,9 +36,7 @@
     "fabricloader": ">=0.11.3",
     "fabric": "*",
     "minecraft": "1.17.x",
+    "trinkets": ">=3.0.0",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
