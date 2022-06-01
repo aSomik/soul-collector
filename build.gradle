@@ -1,38 +1,36 @@
 plugins {
-	id 'fabric-loom' version '0.9-SNAPSHOT'
+	id 'fabric-loom' version '0.10-SNAPSHOT'
 	id 'maven-publish'
 }
 
-sourceCompatibility = JavaVersion.VERSION_16
-targetCompatibility = JavaVersion.VERSION_16
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
 
 repositories {
-	maven { url "https://maven.gegy.dev/" }
-	maven { url "https://jitpack.io/" }
-	maven { url "https://ladysnake.jfrog.io/artifactory/mods" }
-	maven { url "https://maven.terraformersmc.com/" }
-	maven { url "https://maven.pinkgoosik.ru" }
+    maven { url "https://maven.pinkgoosik.ru" } //goosik-config
+	maven { url "https://maven.gegy.dev" } //databreaker
+	maven { url "https://ladysnake.jfrog.io/artifactory/mods" } //CCA
+	maven { url "https://maven.terraformersmc.com" } //modmenu, trinkets
+	maven { url "https://maven.shedaniel.me" } //rei
+	maven { url 'https://jitpack.io/' } //bclib
 }
 
 dependencies {
-	modImplementation "dev.emi:trinkets:${trinkets_version}"
-	modRuntime "supercoder79:databreaker:0.2.7"
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "com.github.paulevsGitch:BCLib:${project.bclib_version}"
-	modImplementation "ru.pinkgoosik:cosmetica:0.3.1-fabric"
-	include "ru.pinkgoosik:cosmetica:0.3.1-fabric"
-
-	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation "dev.emi:trinkets:${project.trinkets_version}"
+	modImplementation "com.github.paulevsGitch:BCLib:${project.bclib_version}"
 
-	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
-	// You may need to force-disable transitiveness on them.
+	modRuntimeOnly "supercoder79:databreaker:0.2.8"
+	modRuntimeOnly "com.terraformersmc:modmenu:3.0.0"
+	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:7.0.343"
 }
 
 processResources {
@@ -44,14 +42,8 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-	// ensure that the encoding is set to UTF-8, no matter what the system default is
-	// this fixes some edge cases with special characters not displaying correctly
-	// see http://yodaconditions.net/blog/fix-for-java-file-encoding-problems-with-gradle.html
-	// If Javadoc is generated, this must be specified in that task too.
-	it.options.encoding = "UTF-8"
-
-	// Minecraft 1.17 (21w19a) upwards uses Java 16.
-	it.options.release = 16
+	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
+	it.options.release = 17
 }
 
 java {
@@ -71,13 +63,7 @@ jar {
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
-			// add all the jars that should be included when publishing to maven
-			artifact(remapJar) {
-				builtBy remapJar
-			}
-			artifact(sourcesJar) {
-				builtBy remapSourcesJar
-			}
+			from components.java
 		}
 	}
 
