@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "SBS",
+    "SSS"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:soul_soil"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "soulcoll:soul_mixture",
+    "count": 1
+  }
+}

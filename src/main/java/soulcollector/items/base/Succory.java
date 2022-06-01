@@ -7,10 +7,11 @@ import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+import ru.bclib.items.BaseDrinkItem;
 
 import java.util.List;
 
-public class Succory extends BaseItem {
+public class Succory extends BaseDrinkItem {
     public Succory(Settings settings) {
         super(settings);
     }

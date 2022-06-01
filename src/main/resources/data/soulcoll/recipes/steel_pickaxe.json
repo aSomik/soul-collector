@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "s": {
+      "item": "soulcoll:steel_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soulcoll:steel_pickaxe",
+    "count": 1
+  }
+}

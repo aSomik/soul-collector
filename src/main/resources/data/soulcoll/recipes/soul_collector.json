@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sWs",
+    "sUs",
+    " S "
+  ],
+  "key": {
+    "s": {
+      "item": "soulcoll:soul_ingot"
+    },
+    "W": {
+      "item": "soulcoll_wither_soul"
+    },
+    "U": {
+      "item": "soulcoll:ultimate_singularity"
+    },
+    "S": {
+      "item": "soulcoll:soul_sword"
+    }
+  },
+  "result": {
+    "item": "soulcoll:soul_collector",
+    "count": 1
+  }
+}

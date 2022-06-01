@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "FIP",
+    " A "
+  ],
+  "key": {
+    "I": {
+      "item": "soulcoll:inactive_singularity"
+    },
+    "H": {
+      "item": "soulcoll:hostile_singularity"
+    },
+    "A": {
+      "item": "soulcoll:harmful_singularity"
+    },
+    "F": {
+      "item": "soulcoll:fren_singularity"
+    },
+    "P": {
+      "item": "soulcoll:peaceful_singularity"
+    }
+  },
+  "result": {
+    "item": "soulcoll:ultimate_singularity",
+    "count": 1
+  }
+}
