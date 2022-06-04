@@ -32,16 +32,16 @@ public class Metamorphosis extends MiningToolItem {
             return 1.0f;
         }
         else if(getMode(stack) == 1){
-            return BlockTags.PICKAXE_MINEABLE.contains(state.getBlock()) ? this.miningSpeed : 1.0F;
+            return state.isIn(BlockTags.PICKAXE_MINEABLE) ? this.miningSpeed : 1.0F;
         }
         else if(getMode(stack) == 2){
-            return BlockTags.AXE_MINEABLE.contains(state.getBlock()) ? this.miningSpeed : 1.0F;
+            return state.isIn(BlockTags.AXE_MINEABLE) ? this.miningSpeed : 1.0F;
         }
         else if(getMode(stack) == 3){
-            return BlockTags.SHOVEL_MINEABLE.contains(state.getBlock()) ? this.miningSpeed : 1.0F;
+            return state.isIn(BlockTags.SHOVEL_MINEABLE) ? this.miningSpeed : 1.0F;
         }
         else if(getMode(stack) == 4){
-            return BlockTags.HOE_MINEABLE.contains(state.getBlock()) ? this.miningSpeed : 1.0F;
+            return state.isIn(BlockTags.HOE_MINEABLE) ? this.miningSpeed : 1.0F;
         }
         return 1.0F;
     }

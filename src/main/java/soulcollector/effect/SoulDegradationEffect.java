@@ -2,26 +2,16 @@ package soulcollector.effect;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffectType;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.effect.StatusEffectCategory;
 
 public class SoulDegradationEffect extends BaseStatusEffect{
-    protected SoulDegradationEffect(StatusEffectType type, int color) {
-        super(
-                StatusEffectType.HARMFUL, 0x704e0);
+    public SoulDegradationEffect(StatusEffectCategory type, int color) {
+        super(type, color);
     }
-
-    @Override
+    public void applyUpdateEffect(LivingEntity entity, int amplifier){
+        entity.damage(DamageSource.MAGIC, 1.0F);
+    }
     public boolean canApplyUpdateEffect(int duration, int amplifier){
-        return true;
-    }
-
-    @Override
-    public void applyUpdateEffect(LivingEntity entity, int amplifier) {
-        if (entity instanceof PlayerEntity) {
-            ((PlayerEntity) entity).
-        }
+        return duration % 40 == 0;
     }
 }

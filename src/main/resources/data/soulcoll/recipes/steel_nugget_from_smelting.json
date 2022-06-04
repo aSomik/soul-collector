@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "soulcoll:steel_pickaxe"
+    },
+    {
+      "item": "soulcoll:steel_shovel"
+    },
+    {
+      "item": "soulcoll:steel_axe"
+    },
+    {
+      "item": "soulcoll:steel_hoe"
+    },
+    {
+      "item": "soulcoll:steel_sword"
+    },
+    {
+      "item": "soulcoll:steel_helmet"
+    },
+    {
+      "item": "soulcoll:steel_chestplate"
+    },
+    {
+      "item": "soulcoll:steel_leggings"
+    },
+    {
+      "item": "soulcoll:steel_boots"
+    }
+  ],
+  "result": "soulcoll:steel_nugget",
+  "experience": 1.0,
+  "cookingtime": 200
+}

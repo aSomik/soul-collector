@@ -118,9 +118,12 @@
   "item.soulcoll.succory": "§dCup of Succory",
 
   "block.soulcoll.singularity_ore": "§7Singularity Ore",
+  "block.soulcoll.deepslate_singularity_ore": "§7Deepslate Singularity Ore",
   "block.soulcoll.bebrock_ore": "§dBebrock Ore",
   "block.soulcoll.bebrblock": "§dBebrblock",
   "block.soulcoll.melis": "Melis",
+
+  "effect.soulcoll.soul_degradation": "Soul Degradation",
 
   "item.soulcoll.player_soul.tooltip": "Violence breeds violence.",
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",

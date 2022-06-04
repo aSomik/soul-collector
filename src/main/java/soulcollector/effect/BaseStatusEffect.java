@@ -1,10 +1,10 @@
 package soulcollector.effect;
 
 import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectType;
+import net.minecraft.entity.effect.StatusEffectCategory;
 
 public class BaseStatusEffect extends StatusEffect{
-    protected BaseStatusEffect(StatusEffectType type, int color) {
+    protected BaseStatusEffect(StatusEffectCategory type, int color) {
         super(type, color);
     }
 }

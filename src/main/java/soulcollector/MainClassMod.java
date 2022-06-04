@@ -6,6 +6,7 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import soulcollector.blocks.SoulCollectorBlocks;
 import soulcollector.data.SoulCollectorLootTables;
+import soulcollector.effect.SoulCollectorEffects;
 import soulcollector.event.PlayerAdvancementEvent;
 import soulcollector.event.SoulCollectorEvents;
 import soulcollector.fluid.SoulCollectorFluids;
@@ -37,11 +38,12 @@ public class MainClassMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		SoulCollectorArmor.register();
-		SoulCollectorFluids.register();
 		SoulCollectorItems.register();
 		SoulCollectorTools.register();
+		SoulCollectorFluids.register();
 		SoulCollectorBlocks.register();
 		SoulCollectorEvents.register();
+		SoulCollectorEffects.register();
 		SoulCollectorLootTables.register();
 		SoulCollectorConfiguredFeatures.register();
 
