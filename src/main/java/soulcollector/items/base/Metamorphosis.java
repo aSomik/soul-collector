@@ -1,8 +1,13 @@
 package soulcollector.items.base;
 
+import com.google.common.collect.ImmutableMultimap;
+import com.google.common.collect.Multimap;
+import com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.attribute.EntityAttribute;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.MiningToolItem;
@@ -23,8 +28,14 @@ import java.util.List;
 
 public class Metamorphosis extends MiningToolItem {
 
+    private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
+
     public Metamorphosis(float attackDamage, float attackSpeed, ToolMaterial material, Settings settings) {
         super(attackDamage, attackSpeed, material, BlockTags.AXE_MINEABLE, settings);
+
+        ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
+        builder.put(ReachEntityAttributes.ATTACK_RANGE, new EntityAttributeModifier("Weapon Modifier", +1.5, EntityAttributeModifier.Operation.ADDITION));
+        this.attributeModifiers = builder.build();
     }
 
     public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {

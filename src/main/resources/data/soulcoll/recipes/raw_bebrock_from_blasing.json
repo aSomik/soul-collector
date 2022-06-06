@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "soulcoll:bebrock_ore"
+    }
+  ],
+  "result": "soulcoll:raw_bebrock",
+  "experience": "6.9",
+  "cookingtime": "100"
+}

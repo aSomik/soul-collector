@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.bclib.items.BaseDrinkItem;
 import soulcollector.MainClassMod;
+import soulcollector.effect.SoulCollectorEffects;
 import soulcollector.fluid.SoulCollectorFluids;
 import soulcollector.items.base.*;
 
@@ -37,7 +38,7 @@ public class SoulCollectorItems {
     public static final Item ULTIMATE_SINGULARITY = add("ultimate_singularity", new Singularity(settings1()));
     public static final Item MELIS_BUCKET = add("melis_bucket", new BucketItem(SoulCollectorFluids.STILL_MELIS, settings1().recipeRemainder(Items.BUCKET).maxCount(1)));
     public static final Item MELIS_BOTTLE = add("melis_bottle", new BaseDrinkItem(settings1().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 0), 0.01f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 60, 1), 0.1f).build())));
-    public static final Item SOUL_MIXTURE = add("soul_mixture", new SoupItem(settings1().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0), 0.2f).statusEffect(new StatusEffectInstance(StatusEffects.WITHER, 60, 0), 0.1f).build())));
+    public static final Item SOUL_MIXTURE = add("soul_mixture", new SoupItem(settings1().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 150, 0), 0.1f).statusEffect(new StatusEffectInstance(SoulCollectorEffects.SOUL_DEGRADATION, 120, 0), 0.05f).build())));
     public static final Item SUCCORY = add("succory", new Succory(settings1().food(new FoodComponent.Builder().hunger(20).saturationModifier(1f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 900, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 900, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 6000, 4), 1f).alwaysEdible().build())));
     public static final Item PIG_CROWN = add("pig_crown", new TechnoCrown(settings1()));
     public static final Item PIG_MASK = add("nyusha_mask", new MaskItem(settings1()));

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "soulcoll:singularity_ore"
+    },
+    {
+      "item": "soulcoll:deepslate_singularity_ore"
+    }
+  ],
+  "result": "soulcoll:singularity_shard",
+  "experience": "0.5",
+  "cookingtime": "200"
+}
