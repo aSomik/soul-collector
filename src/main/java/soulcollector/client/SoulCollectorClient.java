@@ -10,6 +10,7 @@ import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.SimpleSynchronousResourceReloadListener;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.texture.Sprite;
 import net.minecraft.client.texture.SpriteAtlasTexture;
@@ -23,6 +24,8 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.BlockRenderView;
 import soulcollector.fluid.SoulCollectorFluids;
 import soulcollector.items.SoulCollectorItems;
+import soulcollector.items.base.DragonRage;
+import soulcollector.items.tools.SoulCollectorTools;
 
 import java.util.function.Function;
 
@@ -34,6 +37,11 @@ public class SoulCollectorClient implements ClientModInitializer {
             if(item instanceof TrinketRenderer renderer){
                 TrinketRendererRegistry.registerRenderer(item, renderer);
             }
+        });
+
+        ModelPredicateProviderRegistry.register(SoulCollectorTools.DRAGON_RAGE, new Identifier("mode"), (stack, world, entity, seed) -> {
+            int mode = DragonRage.getMode(stack);
+            return (float)mode;
         });
 
         setupFluidRendering(SoulCollectorFluids.STILL_MELIS, SoulCollectorFluids.FLOWING_MELIS, new Identifier("soulcoll", "melis"));

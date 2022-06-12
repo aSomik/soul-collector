@@ -3,12 +3,11 @@ package soulcollector.blocks;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.FluidBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import soulcollector.MainClassMod;
+import soulcollector.SoulCollectorMod;
 import soulcollector.blocks.base.BaseFluidBlock;
 import soulcollector.blocks.base.SoulCollectorBaseBlock;
 import soulcollector.fluid.SoulCollectorFluids;
@@ -29,7 +28,7 @@ public class SoulCollectorBlocks {
 
     private static Block add(String name, Block block) {
         Item.Settings settings = new Item.Settings();
-        settings.group(MainClassMod.ITEM_GROUP_BLOCKS);
+        settings.group(SoulCollectorMod.ITEM_GROUP_BLOCKS);
         return addBlockItem(name, block, new BlockItem(block, settings));
     }
 
@@ -37,13 +36,13 @@ public class SoulCollectorBlocks {
         addBlock(name, block);
         if (item != null) {
             item.appendBlocks(Item.BLOCK_ITEMS, item);
-            ITEMS.put(MainClassMod.newId(name), item);
+            ITEMS.put(SoulCollectorMod.newId(name), item);
         }
         return block;
     }
 
     private static Block addBlock(String name, Block block) {
-        BLOCKS.put(MainClassMod.newId(name), block);
+        BLOCKS.put(SoulCollectorMod.newId(name), block);
         return block;
     }
 

@@ -2,5 +2,19 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "soulcoll:item/dragon_rage"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mode": 0
+      },
+      "model": "soulcoll:item/dragon_rage/dragon_rage_melee"
+    },
+    {
+      "predicate": {
+        "mode": 1
+      },
+      "model": "soulcoll:item/dragon_rage/dragon_rage_ability"
+    }
+  ]
 }

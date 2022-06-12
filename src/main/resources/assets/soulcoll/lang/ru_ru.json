@@ -76,10 +76,14 @@
   "item.soulcoll.player_soul.tooltip.spusik": "Амогус.",
   "item.soulcoll.player_soul.tooltip1.spusik": "Амогус?",
   "item.soulcoll.player_soul.tooltip2.spusik": "Амогус. §o(да он реально согласился на то чтобы это было просто амогус)",
-  "item.soulcoll.love_soul": "§cДуша aViolet",
+  "item.soulcoll.love_soul": "§bДуша aViolet",
   "item.soulcoll.player_soul.tooltip.aviolet": "Душа того, кого я Люблю.",
   "item.soulcoll.player_soul.tooltip1.aviolet": "Имеет нерушимую связь с одной из других душ, создавая нечто",
   "item.soulcoll.player_soul.tooltip2.aviolet": "не из мера сего, способного пройти через любое препятствие.",
+  "item.soulcoll.sus_soul": "§cДуша Susik",
+  "item.soulcoll.player_soul.tooltip.susik": "Оригинальный амогус.",
+  "item.soulcoll.player_soul.tooltip1.susik": "Новоиспечённый Тяп-Ляпер.",
+  "item.soulcoll.player_soul.tooltip2.susik": "Наверное, напишу что-то другое здесь потом.",
 
   "item.soulcoll.steel_ingot": "Стальной слиток",
   "item.soulcoll.steel_nugget": "Стальной самородок",
@@ -91,6 +95,7 @@
   "item.soulcoll.raw_bebrock": "§dСырая бебра",
   "item.soulcoll.bebrock_ingot": "§dСлиток бебры",
   "item.soulcoll.steel_sword": "Стальной меч",
+  "item.soulcoll.soul_sword": "§bМеч души",
   "item.soulcoll.soul_basher": "§bМолот душ",
   "item.soulcoll.soul_collector": "§dСобиратель душ",
   "item.soulcoll.dragon_rage": "§bЯрость дракона",
@@ -119,6 +124,9 @@
   "block.soulcoll.bebrock_ore": "§dРуда бебры",
   "block.soulcoll.bebrblock": "§dБебрблок",
   "block.soulcoll.melis": "Мелиса",
+
+  "effect.soulcoll.soul_degradation": "Деградация души",
+  "effect.soulcoll.soul_power": "Душевная сила",
 
   "item.soulcoll.soul_ingot.tooltip": "Скован из лучших душ.",
   "item.soulcoll.unstable_shard.tooltip": "Он нестабилен..Потому что он фиолетово-чёрный.",

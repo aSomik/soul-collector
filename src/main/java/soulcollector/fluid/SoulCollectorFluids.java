@@ -3,7 +3,7 @@ package soulcollector.fluid;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import soulcollector.MainClassMod;
+import soulcollector.SoulCollectorMod;
 
 public class SoulCollectorFluids {
 
@@ -12,7 +12,7 @@ public class SoulCollectorFluids {
 
     public static void register(){
 
-        STILL_MELIS = Registry.register(Registry.FLUID, new Identifier(MainClassMod.MODID, "melis"), new MelisFluid.Still());
-        FLOWING_MELIS = Registry.register(Registry.FLUID, new Identifier(MainClassMod.MODID, "flowing_melis"), new MelisFluid.Flowing());
+        STILL_MELIS = Registry.register(Registry.FLUID, new Identifier(SoulCollectorMod.MODID, "melis"), new MelisFluid.Still());
+        FLOWING_MELIS = Registry.register(Registry.FLUID, new Identifier(SoulCollectorMod.MODID, "flowing_melis"), new MelisFluid.Flowing());
     }
 }

@@ -9,6 +9,6 @@
     }
   ],
   "result": "soulcoll:singularity_shard",
-  "experience": "0.5",
-  "cookingtime": "100"
+  "experience": 0.5,
+  "cookingtime": 100
 }

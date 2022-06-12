@@ -8,6 +8,7 @@
     "LivingEntityMixin"
   ],
   "client": [
+    "StatusEffectUtilMixin"
   ],
   "injectors": {
     "defaultRequire": 1

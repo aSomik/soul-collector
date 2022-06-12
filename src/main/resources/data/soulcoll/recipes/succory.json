@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    " L ",
+    " A "
+  ],
+  "key": {
+    "L": {
+      "item": "soulcoll:love_soul"
+    },
+    "A": {
+      "item": "soulcoll:melis_bottle"
+    },
+    "P": {
+      "item": "soulcoll:peaceful_singularity"
+    }
+  },
+  "result": {
+    "item": "soulcoll:succory",
+    "count": 1
+  }
+}

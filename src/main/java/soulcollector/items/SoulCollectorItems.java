@@ -11,7 +11,7 @@ import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.bclib.items.BaseDrinkItem;
-import soulcollector.MainClassMod;
+import soulcollector.SoulCollectorMod;
 import soulcollector.effect.SoulCollectorEffects;
 import soulcollector.fluid.SoulCollectorFluids;
 import soulcollector.items.base.*;
@@ -92,22 +92,23 @@ public class SoulCollectorItems {
     public static final Item DRAGON_SOUL = add("dragon_soul", new SoulItem(settings(), EntityType.ENDER_DRAGON));
     public static final Item PLAYER_SOUL = add("player_soul", new PlayerSoulItem(settings(), ""));
     public static final Item SOMIK_SOUL = add("somik_soul", new PlayerSoulItem(settings(), "aSomik"));
+    public static final Item VIOLET_SOUL = add("love_soul", new PlayerSoulItem(settings(), "aViolet"));
     public static final Item GOOSIK_SOUL = add("goosik_soul", new PlayerSoulItem(settings(), "PinkGoosik"));
     public static final Item ANDRYUSHKA_SOUL = add("night_soul", new PlayerSoulItem(settings(), "Librarian_Night"));
     public static final Item SPUSIK_SOUL = add("space_soul", new PlayerSoulItem(settings(), "Spusik"));
-    public static final Item VIOLET_SOUL = add("love_soul", new PlayerSoulItem(settings(), "aViolet"));
+    public static final Item SUSIK_SOUL = add("sus_soul", new PlayerSoulItem(settings(), "Susik"));
 
     private static <I extends Item> I add(String name, I item) {
-        ITEMS.put(new Identifier(MainClassMod.MODID, name), item);
+        ITEMS.put(new Identifier(SoulCollectorMod.MODID, name), item);
         return item;
     }
 
     private static FabricItemSettings settings1(){
-        return new FabricItemSettings().group(MainClassMod.ITEM_GROUP_ITEMS);
+        return new FabricItemSettings().group(SoulCollectorMod.ITEM_GROUP_ITEMS);
     }
 
     private static FabricItemSettings settings(){
-        return new FabricItemSettings().group(MainClassMod.ITEM_GROUP_SOULS);
+        return new FabricItemSettings().group(SoulCollectorMod.ITEM_GROUP_SOULS);
     }
 
     public static void register() {

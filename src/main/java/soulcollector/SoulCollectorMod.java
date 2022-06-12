@@ -15,7 +15,7 @@ import soulcollector.items.base.armor.SoulCollectorArmor;
 import soulcollector.items.tools.SoulCollectorTools;
 import soulcollector.worldgen.SoulCollectorConfiguredFeatures;
 
-public class MainClassMod implements ModInitializer {
+public class SoulCollectorMod implements ModInitializer {
 
 	public static final String MODID = "soulcoll";
 
@@ -46,13 +46,6 @@ public class MainClassMod implements ModInitializer {
 		SoulCollectorEffects.register();
 		SoulCollectorLootTables.register();
 		SoulCollectorConfiguredFeatures.register();
-
-		PlayerAdvancementEvent.EVENT.register((player, advancement) -> {
-			Identifier advancementId = new Identifier("minecraft:end/kill_dragon");
-			if(advancementId.equals(advancement.getId())){
-				player.giveItemStack(SoulCollectorTools.DRAGON_RAGE.getDefaultStack());
-			}
-		});
 	}
 
 	public static Identifier newId(String path){

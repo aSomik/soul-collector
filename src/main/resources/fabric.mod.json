@@ -22,7 +22,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "soulcollector.MainClassMod"
+      "soulcollector.SoulCollectorMod"
     ],
     "client": [
       "soulcollector.client.SoulCollectorClient"

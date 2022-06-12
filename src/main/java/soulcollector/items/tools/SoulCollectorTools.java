@@ -1,12 +1,11 @@
 package soulcollector.items.tools;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.bclib.items.tool.BaseSwordItem;
-import soulcollector.MainClassMod;
+import soulcollector.SoulCollectorMod;
 import soulcollector.items.base.*;
 import soulcollector.items.tools.dev.BebrockMaterial;
 import soulcollector.items.tools.soul.SoulMaterial;
@@ -36,12 +35,12 @@ public class SoulCollectorTools {
     public static final ToolItem STEEL_HOE = add ("steel_hoe", new SteelHoe(SteelMaterial.STEEL_MATERIAL, -5.5f, -1.67f, settings()));
 
     private static <I extends ToolItem> I add(String name, I item) {
-        TOOLITEMS.put(new Identifier(MainClassMod.MODID, name), item);
+        TOOLITEMS.put(new Identifier(SoulCollectorMod.MODID, name), item);
         return item;
     }
 
     private static FabricItemSettings settings(){
-        return new FabricItemSettings().group(MainClassMod.ITEM_GROUP_EQUIPMENT);
+        return new FabricItemSettings().group(SoulCollectorMod.ITEM_GROUP_EQUIPMENT);
     }
 
     public static void register() {
