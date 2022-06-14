@@ -7,12 +7,12 @@ import soulcollector.SoulCollectorMod;
 
 public class SoulCollectorFluids {
 
-    public static FlowableFluid STILL_MELIS;
-    public static FlowableFluid FLOWING_MELIS;
+    public static final FlowableFluid STILL_MELIS = new MelisFluid.Still();
+    public static final FlowableFluid FLOWING_MELIS =new MelisFluid.Flowing();
 
     public static void register(){
 
-        STILL_MELIS = Registry.register(Registry.FLUID, new Identifier(SoulCollectorMod.MODID, "melis"), new MelisFluid.Still());
-        FLOWING_MELIS = Registry.register(Registry.FLUID, new Identifier(SoulCollectorMod.MODID, "flowing_melis"), new MelisFluid.Flowing());
+        Registry.register(Registry.FLUID, new Identifier(SoulCollectorMod.MODID, "melis"), STILL_MELIS);
+        Registry.register(Registry.FLUID, new Identifier(SoulCollectorMod.MODID, "flowing_melis"), FLOWING_MELIS);
     }
 }
