@@ -24,7 +24,7 @@ public class SoulCollectorBlocks {
     public static final Block DEEPSLATE_SINGULARITY_ORE = add("deepslate_singularity_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
     public static final Block BEBROCK_ORE = add("bebrock_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
     public static final Block BEBRBLOCK = add("bebrblock", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
-    public static Block MELIS = add("melis", new BaseFluidBlock(SoulCollectorFluids.STILL_MELIS, FabricBlockSettings.copyOf(Blocks.LAVA)));
+    public static final Block MELIS = addBlock("melis", new BaseFluidBlock(SoulCollectorFluids.STILL_MELIS, FabricBlockSettings.copyOf(Blocks.LAVA)));
 
     private static Block add(String name, Block block) {
         Item.Settings settings = new Item.Settings();
