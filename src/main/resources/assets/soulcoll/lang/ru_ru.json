@@ -123,6 +123,8 @@
   "block.soulcoll.deepslate_singularity_ore": "§7Сингулярный глубинный сланец",
   "block.soulcoll.bebrock_ore": "§dРуда бебры",
   "block.soulcoll.bebrblock": "§dБебрблок",
+  "block.soulcoll.steel_block": "Стальной блок",
+  "block.soulcoll.soul_ingot_block": "§bБлок слитков души",
   "block.soulcoll.melis": "Мелиса",
 
   "effect.soulcoll.soul_degradation": "Деградация души",
@@ -157,5 +159,10 @@
   "item.soulcoll.singularity.tooltip": "ILOVEVIOLET",
   "item.soulcoll.pig_crown.tooltip": "Похоже, она принадлежит кому-то..кровавому.",
   "item.soulcoll.pig_crown.tooltip1": "Вы не достоины её носить.",
-  "item.soulcoll.succory.tooltip": "Освежающий напиток. Может помочь побороть кофезависимость."
+  "item.soulcoll.succory.tooltip": "Освежающий напиток. Может помочь побороть кофезависимость.",
+
+  "advancements.soulcoll.root.name": "Премногие благодарности!",
+  "advancements.soulcoll.root.desc": "Спасибо за то, что установили Soul Collector!",
+  "advancements.soulcoll.steel_acquired.name": "Не так, как в IC2",
+  "advancements.soulcoll.steel_acquired.desc": "Найдите или выплавьте свой первый слиток стали"
 }

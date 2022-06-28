@@ -125,6 +125,8 @@
   "block.soulcoll.deepslate_singularity_ore": "§7Deepslate Singularity Ore",
   "block.soulcoll.bebrock_ore": "§dBebrock Ore",
   "block.soulcoll.bebrblock": "§dBebrblock",
+  "block.soulcoll.steel_block": "Steel Block",
+  "block.soulcoll.soul_ingot_block": "§bSoul Ingot Block",
   "block.soulcoll.melis": "Melis",
 
   "effect.soulcoll.soul_degradation": "Soul Degradation",
@@ -164,5 +166,10 @@
   "item.soulcoll.singularity.tooltip": "ILOVEVIOLET",
   "item.soulcoll.pig_crown.tooltip": "It might belong to someone..bloody.",
   "item.soulcoll.pig_crown.tooltip1": "You aren't worthy of wearing it.",
-  "item.soulcoll.succory.tooltip": "A refreshing drink. Might help with your coffee addiction."
+  "item.soulcoll.succory.tooltip": "A refreshing drink. Might help with your coffee addiction.",
+
+  "advancements.soulcoll.root.name": "Much Love!",
+  "advancements.soulcoll.root.desc": "Thank you for installing Soul Collector!",
+  "advancements.soulcoll.steel_acquired.name": "Not Quite the IC2 One",
+  "advancements.soulcoll.steel_acquired.desc": "Find or smelt your first steel ingot"
 }
