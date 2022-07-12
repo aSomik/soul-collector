@@ -45,6 +45,7 @@ public class TechnoBlade extends SwordItem {
         tooltip.add(new TranslatableText("item.soulcoll.techno_blade.tooltip").formatted(Formatting.DARK_GRAY));
         tooltip.add(new TranslatableText("item.soulcoll.techno_blade.tooltip1").formatted(Formatting.DARK_GRAY));
         tooltip.add(new TranslatableText("item.soulcoll.techno_blade.tooltip2").formatted(Formatting.DARK_GRAY));
+        tooltip.add(new TranslatableText("item.soulcoll.techno_blade.tooltip3").formatted(Formatting.DARK_GRAY, Formatting.ITALIC));
         tooltip.add(new LiteralText("Counter: " + getKillCount(stack)).formatted(Formatting.DARK_GREEN));
         super.appendTooltip(stack, world, tooltip, context);
     }

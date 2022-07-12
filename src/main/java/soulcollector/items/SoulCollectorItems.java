@@ -42,6 +42,7 @@ public class SoulCollectorItems {
     public static final Item SUCCORY = add("succory", new Succory(settings1().maxCount(1).food(new FoodComponent.Builder().hunger(20).saturationModifier(1f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 900, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 900, 1), 1f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 6000, 4), 1f).alwaysEdible().build())));
     public static final Item PIG_CROWN = add("pig_crown", new TechnoCrown(settings1().maxCount(5)));
     public static final Item PIG_MASK = add("nyusha_mask", new MaskItem(settings1().maxCount(1)));
+    public static final Item PLACEHOLDER = add("actually_all_souls_icon", new Item(new FabricItemSettings()));
 
     public static final Item CHICKEN_SOUL = add("chicken_soul", new SoulItem(settings(), EntityType.CHICKEN));
     public static final Item COW_SOUL = add("cow_soul", new SoulItem(settings(), EntityType.COW));

@@ -1,0 +1,632 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.soulcoll.actually_all_souls.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.actually_all_souls.desc"
+    },
+    "icon": {
+      "item": "soulcoll:actually_all_souls_icon"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "axolotl_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:axolotl_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "bee_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:bee_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "bat_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:bat_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "bear_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:bear_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "blaze_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:blaze_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "chicken_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:chicken_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "cow_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:cow_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "creeper_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:awman_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "dolphin_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:dolphin_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "dragon_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:dragon_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "enderman_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:enderman_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "endermite_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:endermite_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "elder_guardian_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:elder_guardian_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "fish_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:fish_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "fox_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:fox_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "goat_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:goat_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "guardian_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:guardian_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "ghast_soul_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:ghast_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "hoglin_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:hoglin_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "horse_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:horse_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "illager_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:illager_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "llama_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:llama_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "mooshroom_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:mooshroom_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "magma_cube_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:magma_cube_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "ocelot_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:ocelot_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "pig_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:pig_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "parrot_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:parrot_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "piglin_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:piglin_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "phantom_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:phantom_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "player_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:player_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "rabbit_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:rabbit_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "ravager_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:ravager_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "sheep_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:sheep_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "squid_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:squid_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "strider_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:strider_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "skeleton_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:skeleton_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "spider_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:spider_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "silverfish_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:silverfish_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "slime_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:slime_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "shulker_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:shulker_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "turtle_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:turtle_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "villager_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:villager_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "wolf_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:wolf_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "wither_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:wither_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "zombie_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:zombie_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "somik_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:somik_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "love_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:love_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "goosik_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:goosik_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "night_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:night_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "space_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:space_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "sus_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:sus_soul"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:all_souls"
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.soulcoll.soul_basher.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.soul_basher.desc"
+    },
+    "icon": {
+      "item": "soulcoll:soul_basher"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:soul_basher"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:forge_soul_ingot"
+}

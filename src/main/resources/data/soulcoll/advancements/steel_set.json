@@ -1,0 +1,52 @@
+{
+  "parent": "soulcoll:steel_acquired",
+  "display": {
+    "icon": {
+      "item": "soulcoll:steel_helmet"
+    },
+    "title": {
+      "translate": "advancements.soulcoll.steel_set.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.steel_set.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steel_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:steel_helmet"
+            ]
+          },
+          {
+            "items": [
+              "soulcoll:steel_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "soulcoll:steel_leggings"
+            ]
+          },
+          {
+            "items": [
+              "soulcoll:steel_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "steel_armor"
+    ]
+  ]
+}

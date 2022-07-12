@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.soulcoll.ancient_soul_acquired.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.ancient_soul_acquired.desc"
+    },
+    "icon": {
+      "item": "soulcoll:ancient_soul"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:ancient_soul"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:root"
+}

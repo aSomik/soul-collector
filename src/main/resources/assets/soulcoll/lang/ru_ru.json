@@ -157,12 +157,23 @@
   "item.soulcoll.resprite_hammer.tooltip1": "Происхождение этого молота неизвестно, однако есть",
   "item.soulcoll.resprite_hammer.tooltip2": "предположения, что это давно потерянный брат Молота душ.",
   "item.soulcoll.singularity.tooltip": "ILOVEVIOLET",
-  "item.soulcoll.pig_crown.tooltip": "Похоже, она принадлежит кому-то..кровавому.",
+  "item.soulcoll.pig_crown.tooltip": "Похоже, она принадлежала кому-то..кровавому.",
   "item.soulcoll.pig_crown.tooltip1": "Вы не достоины её носить.",
   "item.soulcoll.succory.tooltip": "Освежающий напиток. Может помочь побороть кофезависимость.",
 
-  "advancements.soulcoll.root.name": "Премногие благодарности!",
-  "advancements.soulcoll.root.desc": "Спасибо за то, что установили Soul Collector!",
+  "advancements.soulcoll.root.name": "Soul Collector",
+  "advancements.soulcoll.root.desc": "Премногие благодарности за то, что установили Soul Collector!",
   "advancements.soulcoll.steel_acquired.name": "Не так, как в IC2",
-  "advancements.soulcoll.steel_acquired.desc": "Найдите или выплавьте свой первый слиток стали"
+  "advancements.soulcoll.steel_acquired.desc": "Найдите или выплавьте свой первый слиток стали",
+  "advancements.soulcoll.steel_set.name": "Стальной человек",
+  "advancements.soulcoll.steel_set.desc": "Сделайте сет стальной брони..и разочаруйтесь",
+  "advancements.soulcoll.ancient_soul_acquired.name": "Души прошлого",
+  "advancements.soulcoll.ancient_soul_acquired.desc": "Найдите давно забытую душу",
+  "advancements.soulcoll.forge_soul_ingot.name": "Особенный вид проводника",
+  "advancements.soulcoll.forge_soul_ingot.desc": "Соедините стальной слиток и древнюю душу друг с другом",
+  "advancements.soulcoll.soul_basher.name": "Стоп! Время башей",
+  "advancements.soulcoll.soul_basher.desc": "Создайте мощное оружие, способное выбивать души из ваших врагов",
+  "advancements.soulcoll.all_souls.name": "Ты со мной, душой и..душой!",
+  "advancements.soulcoll.all_souls.desc": "Добавьте души всех мобов в свою коллекцию, а также и свою",
+  "advancements.soulcoll.actually_all_souls.name": "Добро пожаловать в Неверморье!"
 }

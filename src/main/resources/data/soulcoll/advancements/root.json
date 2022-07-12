@@ -7,7 +7,7 @@
       "translate": "advancements.soulcoll.root.desc"
     },
     "icon": {
-      "item": "soulcoll:love_soul"
+      "item": "soulcoll:bebrock_ore"
     },
     "frame": "task",
     "show_toast": false,

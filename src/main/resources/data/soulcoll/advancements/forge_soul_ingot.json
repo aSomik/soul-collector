@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.soulcoll.forge_soul_ingot.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.forge_soul_ingot.desc"
+    },
+    "icon": {
+      "item": "soulcoll:soul_ingot"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:soul_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:ancient_soul_acquired"
+}
