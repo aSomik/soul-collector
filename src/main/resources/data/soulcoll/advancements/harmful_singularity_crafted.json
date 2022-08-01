@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.soulcoll.harmful_singularity_crafted.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.harmful_singularity_crafted.desc"
+    },
+    "icon": {
+      "item": "soulcoll:harmful_singularity"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:harmful_singularity"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:inactive_singularity_crafted"
+}

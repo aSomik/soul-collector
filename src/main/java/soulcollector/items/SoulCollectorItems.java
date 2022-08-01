@@ -26,6 +26,9 @@ public class SoulCollectorItems {
     public static final Item STEEL_NUGGET = add("steel_nugget", new BaseItem(settings1()));
     public static final Item ANCIENT_SOUL = add("ancient_soul", new AncientSoul(settings1()));
     public static final Item SOUL_INGOT = add("soul_ingot", new SoulIngot(settings1()));
+    public static final Item RAW_HELLSTONE = add("raw_hellstone", new BaseItem(settings1()));
+    public static final Item HELLSTONE_INGOT = add("hellstone_ingot", new BaseItem(settings1()));
+    public static final Item FIEND_INGOT = add("fiendish_ingot", new FiendishIngot(settings1()));
     public static final Item RAW_BEBROCK = add("raw_bebrock", new RawBebrock(settings1()));
     public static final Item BEBROCK = add("bebrock_ingot", new Bebrock(settings1()));
     public static final Item UNSTABLE_SHARD = add("unstable_shard", new UnstableShard(settings1()));

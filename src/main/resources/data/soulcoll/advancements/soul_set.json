@@ -1,0 +1,52 @@
+{
+  "parent": "soulcoll:forge_soul_ingot",
+  "display": {
+    "icon": {
+      "item": "soulcoll:soul_helmet"
+    },
+    "title": {
+      "translate": "advancements.soulcoll.soul_set.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.soul_set.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:soul_helmet"
+            ]
+          },
+          {
+            "items": [
+              "soulcoll:soul_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "soulcoll:soul_leggings"
+            ]
+          },
+          {
+            "items": [
+              "soulcoll:soul_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul_armor"
+    ]
+  ]
+}

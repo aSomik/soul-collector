@@ -1,0 +1,92 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.bebrock_ingot_materials.name"
+    },
+    "description": {
+      "translate": "advancements.bebrock_ingot_materials.desc"
+    },
+    "icon": {
+      "item": "soulcoll:bebrock_ingot"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raw_bebrock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:raw_bebrock"
+            ]
+          }
+        ]
+      }
+    },
+    "soul_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:soul_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "unstable_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:unstable_shard"
+            ]
+          }
+        ]
+      }
+    },
+    "inactive_singularity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:inactive_singularity"
+            ]
+          }
+        ]
+      }
+    },
+    "dragon_soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:dragon_soul"
+            ]
+          }
+        ]
+      }
+    },
+    "bebrock_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:bebrock_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+    "parent": "soulcoll:bebrock_ore_mined"
+  }

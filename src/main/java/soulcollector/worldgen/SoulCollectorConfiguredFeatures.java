@@ -33,6 +33,10 @@ public class SoulCollectorConfiguredFeatures {
             (Feature.ORE, new OreFeatureConfig(
                     OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
                     SoulCollectorBlocks.DEEPSLATE_SINGULARITY_ORE.getDefaultState(), 5));
+    private static final ConfiguredFeature<?, ?> HELLSTONE_ORE_CONFIGURED_FEATURE = new ConfiguredFeature<>
+            (Feature.ORE, new OreFeatureConfig(
+                    OreConfiguredFeatures.NETHERRACK,
+                    SoulCollectorBlocks.HELLSTONE_ORE.getDefaultState(), 3));
 
     public static PlacedFeature OVERWORLD_SINGULARITY_ORE_PLACED_FEATURE = new PlacedFeature(
             RegistryEntry.of(OVERWORLD_SINGULARITY_ORE_CONFIGURED_FEATURE),
@@ -52,6 +56,12 @@ public class SoulCollectorConfiguredFeatures {
                     CountPlacementModifier.of(4),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.fixed(-63), YOffset.fixed(8))));
+    public static PlacedFeature HELLSTONE_ORE_PLACED_FEATURE = new PlacedFeature(
+            RegistryEntry.of(HELLSTONE_ORE_CONFIGURED_FEATURE),
+            Arrays.asList(
+                    CountPlacementModifier.of(6),
+                    SquarePlacementModifier.of(),
+                    HeightRangePlacementModifier.uniform(YOffset.fixed(2), YOffset.fixed(127))));
 
     public static void register(){
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
@@ -75,5 +85,12 @@ public class SoulCollectorConfiguredFeatures {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
                         new Identifier("soulcoll", "deepslate_singularity_ore")));
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
+                new Identifier("soulcoll", "hellstone_ore"), HELLSTONE_ORE_CONFIGURED_FEATURE);
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier("soulcoll", "hellstone_ore"),
+                HELLSTONE_ORE_PLACED_FEATURE);
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES,
+                RegistryKey.of(Registry.PLACED_FEATURE_KEY,
+                        new Identifier("soulcoll", "hellstone_ore")));
     }
 }

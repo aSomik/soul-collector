@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.soulcoll.peaceful_singularity_crafted.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.peaceful_singularity_crafted.desc"
+    },
+    "icon": {
+      "item": "soulcoll:peaceful_singularity"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:peaceful_singularity"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:inactive_singularity_crafted"
+}

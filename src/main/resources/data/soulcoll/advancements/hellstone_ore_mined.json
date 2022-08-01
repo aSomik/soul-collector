@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.soulcoll.hellstone_ore_mined.name"
+    },
+    "description": {
+      "translate": "advancements.soulcoll.hellstone_ore_mined.desc"
+    },
+    "icon": {
+      "item": "soulcoll:hellstone_ore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:hellstone_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:singularity_ore_mined"
+}

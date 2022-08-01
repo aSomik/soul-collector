@@ -22,6 +22,7 @@ public class SoulCollectorBlocks {
 
     public static final Block SINGULARITY_ORE = add("singularity_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
     public static final Block DEEPSLATE_SINGULARITY_ORE = add("deepslate_singularity_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+    public static final Block HELLSTONE_ORE = add("hellstone_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
     public static final Block BEBROCK_ORE = add("bebrock_ore", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
     public static final Block BEBRBLOCK = add("bebrblock", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
     public static final Block STEEL_BLOCK = add("steel_block", new SoulCollectorBaseBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));

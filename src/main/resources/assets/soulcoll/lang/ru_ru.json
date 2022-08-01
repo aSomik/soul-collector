@@ -91,6 +91,7 @@
   "item.soulcoll.melis_bottle": "Бутылка с Мелисой",
   "item.soulcoll.ancient_soul": "§bДревняя душа",
   "item.soulcoll.soul_ingot": "§bСлиток душ",
+  "item.soulcoll.fiendish_ingot": "§eДъявольский слиток",
   "item.soulcoll.unstable_shard": "§dНестабильный осколок",
   "item.soulcoll.raw_bebrock": "§dСырая бебра",
   "item.soulcoll.bebrock_ingot": "§dСлиток бебры",
@@ -131,6 +132,7 @@
   "effect.soulcoll.soul_power": "Усиление души",
 
   "item.soulcoll.soul_ingot.tooltip": "Скован из лучших душ.",
+  "item.soulcoll.fiendish_ingot.tooltip": "Невероятно горяч и зол.",
   "item.soulcoll.unstable_shard.tooltip": "Он нестабилен..Потому что он фиолетово-чёрный.",
   "item.soulcoll.unstable_shard.tooltip1": "Является частью чего-то большего.",
   "item.soulcoll.raw_bebrock.tooltip": "Отвратительно..",

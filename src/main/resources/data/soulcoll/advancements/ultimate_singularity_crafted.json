@@ -1,0 +1,80 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.ultimate_singularity_crafted.name"
+    },
+    "description": {
+      "translate": "advancements.ultimate_singularity_crafted.desc"
+    },
+    "icon": {
+      "item": "soulcoll:ultimate_singularity"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hostile_singularity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:hostile_singularity"
+            ]
+          }
+        ]
+      }
+    },
+    "harmful_singularity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:harmful_singularity"
+            ]
+          }
+        ]
+      }
+    },
+    "fren_singularity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:fren_singularity"
+            ]
+          }
+        ]
+      }
+    },
+    "inactive_singularity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:inactive_singularity"
+            ]
+          }
+        ]
+      }
+    },
+    "peaceful_singularity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulcoll:peaceful_singularity"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "soulcoll:inactive_singularity_crafted"
+}

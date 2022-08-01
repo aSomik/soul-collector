@@ -90,6 +90,7 @@
   "item.soulcoll.melis_bucket": "Melis Bucket",
   "item.soulcoll.ancient_soul": "§bAncient Soul",
   "item.soulcoll.soul_ingot": "§bSoul Ingot",
+  "item.soulcoll.fiendish_ingot": "§eFiendish Ingot",
   "item.soulcoll.unstable_shard": "§dUnstable Shard",
   "item.soulcoll.raw_bebrock": "§dRaw Bebrock",
   "item.soulcoll.bebrock_ingot": "§dBebrock",
@@ -134,6 +135,7 @@
 
   "item.soulcoll.player_soul.tooltip": "Violence breeds violence.",
   "item.soulcoll.soul_ingot.tooltip": "Forged from the finest souls.",
+  "item.soulcoll.fiendish_ingot.tooltip": "Extremely hot and evil.",
   "item.soulcoll.unstable_shard.tooltip": "It's unstable..Because it's purple and black.",
   "item.soulcoll.unstable_shard.tooltip1": "Might be a part of something bigger.",
   "item.soulcoll.raw_bebrock.tooltip": "Gross..",
