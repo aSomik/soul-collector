@@ -1,15 +1,15 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.bebrock_ingot_materials.name"
+      "translate": "advancements.soulcoll.bebrock_ingot_materials.name"
     },
     "description": {
-      "translate": "advancements.bebrock_ingot_materials.desc"
+      "translate": "advancements.soulcoll.bebrock_ingot_materials.desc"
     },
     "icon": {
       "item": "soulcoll:bebrock_ingot"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

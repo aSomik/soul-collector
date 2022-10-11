@@ -1,13 +1,13 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.soulcoll.fren_singularity_crafted.name"
+      "translate": "advancements.soulcoll.dsingularity.name"
     },
     "description": {
-      "translate": "advancements.soulcoll.fren_singularity_crafted.desc"
+      "translate": "advancements.soulcoll.dsingularity.desc"
     },
     "icon": {
-      "item": "soulcoll:fren_singularity"
+      "item": "soulcoll:hostile_singularity"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "soulcoll:fren_singularity"
+              "soulcoll:hostile_singularity"
             ]
           }
         ]

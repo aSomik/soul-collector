@@ -1,10 +1,10 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.soulcoll.harmful_singularity_crafted.name"
+      "translate": "advancements.soulcoll.csingularity.name"
     },
     "description": {
-      "translate": "advancements.soulcoll.harmful_singularity_crafted.desc"
+      "translate": "advancements.soulcoll.csingularity.desc"
     },
     "icon": {
       "item": "soulcoll:harmful_singularity"
