@@ -60,7 +60,7 @@
   "item.soulcoll.wither_soul": "§4Душа иссушителя",
   "item.soulcoll.dragon_soul": "§4Душа дракона",
   "item.soulcoll.player_soul": "§4Душа игрока",
-  "item.soulcoll.somik_soul": "§bДуша VioletSomik",
+  "item.soulcoll.somik_soul": "§dДуша VioletSomik",
   "item.soulcoll.player_soul.tooltip.violetsomik": "Знаете, а я даже горжусь проделанной работой.",
   "item.soulcoll.player_soul.tooltip1.violetsomik": "Имеет нерушимую связь с одной из других душ, создавая нечто",
   "item.soulcoll.player_soul.tooltip2.violetsomik": "не из мера сего, способного пройти через любое препятствие.",
@@ -204,5 +204,13 @@
   "advancements.soulcoll.soul_basher.desc": "Создайте мощное оружие, способное выбивать души из ваших врагов",
   "advancements.soulcoll.all_souls.name": "Ты со мной, душой и..душой!",
   "advancements.soulcoll.all_souls.desc": "Добавьте души всех мобов в свою коллекцию, а также и свою",
-  "advancements.soulcoll.actually_all_souls.name": "Добро пожаловать в Неверморье!"
+  "advancements.soulcoll.actually_all_souls.name": "Добро пожаловать в Неверморье!",
+  "advancements.soulcoll.succory_obtained.name": "Чудный напиток",
+  "advancements.soulcoll.succory_obtained.desc": "Найдите или скрафтите Цикорий, напиток, лучше всего подходящий для снятия стресса",
+  "advancements.soulcoll.soul_collector_crafted.name": "Коллекционер",
+  "advancements.soulcoll.soul_collector_crafted.desc": "Скрафтите Собиратель душ, оружие, созданное для удовлетворения прихоти мощи",
+  "advancements.soulcoll.techno_blade_crafted.name": "The Blood God!",
+  "advancements.soulcoll.techno_blade_crafted.desc": "Соберите Techno Blade, легендарный клинок, которым ныне пользовался кровожадный Бог",
+  "advancements.soulcoll.metamorphosis_crafted.name": "Пустая оболочка",
+  "advancements.soulcoll.metamorphosis_crafted.desc": "Скрафтите Метаморфоз, мерзостную комбинацию, подходящую для любых видов деструктивных мыслей"
 }

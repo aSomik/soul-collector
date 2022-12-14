@@ -1,18 +1,21 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.soulcoll.hellstone_ore_mined.name"
+      "translate": "advancements.soulcoll.metamorphosis_crafted.name"
     },
     "description": {
-      "translate": "advancements.soulcoll.hellstone_ore_mined.desc"
+      "translate": "advancements.soulcoll.metamorphosis_crafted.desc"
     },
     "icon": {
-      "item": "soulcoll:hellstone_ore"
+      "item": "soulcoll:metamorphosis"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 111
   },
   "criteria": {
     "name": {
@@ -21,12 +24,12 @@
         "items": [
           {
             "items": [
-              "soulcoll:raw_hellstone"
+              "soulcoll:metamorphosis"
             ]
           }
         ]
       }
     }
   },
-  "parent": "soulcoll:singularity_ore_mined"
+  "parent": "soulcoll:dsingularity"
 }

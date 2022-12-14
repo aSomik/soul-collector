@@ -1,18 +1,21 @@
 {
   "display": {
     "title": {
-      "translate": "advancements.soulcoll.hellstone_ore_mined.name"
+      "translate": "advancements.soulcoll.techno_blade_crafted.name"
     },
     "description": {
-      "translate": "advancements.soulcoll.hellstone_ore_mined.desc"
+      "translate": "advancements.soulcoll.techno_blade_crafted.desc"
     },
     "icon": {
-      "item": "soulcoll:hellstone_ore"
+      "item": "soulcoll:techno_blade"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 100
   },
   "criteria": {
     "name": {
@@ -21,12 +24,12 @@
         "items": [
           {
             "items": [
-              "soulcoll:raw_hellstone"
+              "soulcoll:techno_blade"
             ]
           }
         ]
       }
     }
   },
-  "parent": "soulcoll:singularity_ore_mined"
+  "parent": "soulcoll:dsingularity"
 }
