@@ -95,8 +95,8 @@ public class SoulCollectorItems {
     public static final Item WITHER_SOUL = add("wither_soul", new SoulItem(settings(), EntityType.WITHER));
     public static final Item DRAGON_SOUL = add("dragon_soul", new SoulItem(settings(), EntityType.ENDER_DRAGON));
     public static final Item PLAYER_SOUL = add("player_soul", new PlayerSoulItem(settings(), ""));
-    public static final Item SOMIK_SOUL = add("somik_soul", new PlayerSoulItem(settings(), "aSomik"));
-    public static final Item VIOLET_SOUL = add("love_soul", new PlayerSoulItem(settings(), "aViolet"));
+    public static final Item SOMIK_SOUL = add("somik_soul", new PlayerSoulItem(settings(), "VioletSomik"));
+    public static final Item VIOLET_SOUL = add("love_soul", new PlayerSoulItem(settings(), "SomikViolet"));
     public static final Item GOOSIK_SOUL = add("goosik_soul", new PlayerSoulItem(settings(), "PinkGoosik"));
     public static final Item ANDRYUSHKA_SOUL = add("night_soul", new PlayerSoulItem(settings(), "Librarian_Night"));
     public static final Item SPUSIK_SOUL = add("space_soul", new PlayerSoulItem(settings(), "Spusik"));

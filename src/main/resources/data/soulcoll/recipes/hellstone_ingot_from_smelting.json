@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "soulcoll:raw_hellstone"
+    }
+  ],
+  "result": "soulcoll:hellstone_ingot",
+  "experience": 15,
+  "cookingtime": 600
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "soulcoll:hellstone_ore"
+    }
+  ],
+  "result": "soulcoll:raw_hellstone",
+  "experience": 11,
+  "cookingtime": 200
+}
