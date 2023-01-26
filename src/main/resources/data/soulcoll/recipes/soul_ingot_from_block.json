@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soulcoll:soul_ingot_block"
+    }
+  ],
+  "result": {
+    "item": "soulcoll:soul_ingot",
+    "count": 9
+  }
+}
